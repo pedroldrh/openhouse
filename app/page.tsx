@@ -1,69 +1,78 @@
-import Image from "next/image";
+import Link from "next/link";
+import BigSearch from "@/components/BigSearch";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import HouseCard from "@/components/HouseCard";
+import { CITIES, housesIn } from "@/lib/data";
+import { fmtCompact } from "@/lib/finance";
+import { ChevronRight } from "@/components/icons";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
+    <div>
+      <Header />
+
+      <main className="mx-auto px-6 md:px-10 xl:px-20">
+        {/* hero search */}
+        <section className="py-14 text-center md:py-20">
+          <h1 className="mx-auto max-w-3xl text-3xl font-semibold tracking-tight md:text-[44px] md:leading-[1.15]">
+            Window-shop homes across the country
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="mx-auto mt-3 max-w-xl text-base text-muted md:text-lg">
+            Pick a city. See what&apos;s out there, what it really costs per month, and what the
+            same money buys somewhere else.
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+          <div className="mt-8">
+            <BigSearch />
+          </div>
+        </section>
+
+        {/* city tiles */}
+        <section>
+          <h2 className="text-[22px] font-semibold">Explore a city</h2>
+          <div className="mt-4 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
+            {CITIES.map((c) => (
+              <Link key={c.id} href={`/city/${c.id}`} className="group">
+                <div className="aspect-square overflow-hidden rounded-xl">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={c.hero}
+                    alt={c.name}
+                    className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                </div>
+                <p className="mt-2.5 text-[15px] font-medium">
+                  {c.name}, {c.state}
+                </p>
+                <p className="text-sm text-muted">
+                  Median {fmtCompact(c.medianPrice)} · ${c.pricePerSqft}/sqft
+                </p>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        {/* per-city rows */}
+        {CITIES.map((c) => (
+          <section key={c.id} className="mt-12">
+            <Link href={`/city/${c.id}`} className="group flex items-center gap-1">
+              <h2 className="text-[22px] font-semibold">Homes in {c.name}</h2>
+              <ChevronRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+            </Link>
+            <div className="scrollbar-hide mt-4 flex gap-5 overflow-x-auto pb-2">
+              {housesIn(c.id)
+                .slice(0, 6)
+                .map((h) => (
+                  <div key={h.id} className="w-64 flex-shrink-0 md:w-72">
+                    <HouseCard house={h} />
+                  </div>
+                ))}
+            </div>
+          </section>
+        ))}
       </main>
+
+      <Footer />
     </div>
   );
 }
