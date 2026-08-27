@@ -2,7 +2,9 @@ import { notFound } from "next/navigation";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ReportCard from "@/components/ReportCard";
+import MarketChart from "@/components/MarketChart";
 import { CITIES, getCity, housesIn } from "@/lib/data";
+import { marketSeries, modelForecastPct } from "@/lib/market";
 import CityExplorer from "./CityExplorer";
 
 export function generateStaticParams() {
@@ -28,6 +30,23 @@ export default async function CityPage({ params }: { params: Promise<{ slug: str
         <div className="mt-6">
           <ReportCard city={city} />
         </div>
+
+        <section className="mt-10 rounded-2xl border border-line p-6">
+          <h2 className="text-lg font-semibold">The {city.name} market — and your call on it</h2>
+          <p className="mt-1 text-sm text-muted">
+            26 years of the median home&apos;s value (approximate, for exploration). The dashed
+            lines are the next 12 months: the model&apos;s call, and yours.
+          </p>
+          <div className="mt-5">
+            <MarketChart
+              cityId={city.id}
+              cityName={city.name}
+              series={marketSeries(city.id)}
+              modelPct={modelForecastPct(city.id)}
+            />
+          </div>
+        </section>
+
         <div className="mt-10">
           <CityExplorer houses={houses} />
         </div>
