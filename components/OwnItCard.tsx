@@ -81,6 +81,7 @@ export default function OwnItCard({ house }: { house: House }) {
         {row("Mortgage (principal + interest)", m.pi)}
         {row("Property tax", m.tax)}
         {row("Home insurance", m.insurance)}
+        {m.pmi > 0 && row("Mortgage insurance (PMI, under 20% down)", m.pmi)}
         {house.hoaMonthly > 0 && row("HOA / maintenance", m.hoa)}
         <div className="mt-2 flex items-center justify-between border-t border-line pt-3.5 text-[17px] font-semibold">
           <span>All-in monthly</span>

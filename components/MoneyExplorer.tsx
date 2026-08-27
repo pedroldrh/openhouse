@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { fmtCompact, fmtMoney, monthlyPI } from "@/lib/finance";
+import { fmtCompact, fmtMoney, monthlyPI, monthlyPMI } from "@/lib/finance";
 import { usePins } from "@/lib/pins";
 
 export interface HouseLite {
@@ -33,7 +33,9 @@ function evaluate(h: HouseLite, income: number, savings: number): Verdict {
   const minDown = h.price * MIN_DOWN_PCT;
   const down = Math.min(savings, h.price); // put everything you have toward it
   const loan = Math.max(h.price - down, 0);
-  const monthly = monthlyPI(loan) + h.fixedMonthly;
+  const downPct = (down / h.price) * 100;
+  // Under 20% down, lenders add PMI — the real cost of a thin down payment
+  const monthly = monthlyPI(loan) + monthlyPMI(loan, downPct) + h.fixedMonthly;
   const needIncome = (monthly * 12) / 0.28;
   return {
     ok: savings >= minDown && income >= needIncome,
@@ -152,7 +154,8 @@ export default function MoneyExplorer({
       <p className="mt-4 text-sm text-muted">
         {fmtMoney(monthlyBudget)}/mo housing budget (28% rule) · your{" "}
         <span className="font-semibold text-ink">{fmtCompact(savings)}</span> goes toward the down
-        payment (5% lender minimum) · 6.4% mortgage · real taxes &amp; insurance per home
+        payment (5% lender minimum, PMI added under 20%) · 6.4% mortgage · real taxes &amp;
+        insurance per home
       </p>
 
       {/* per-city results */}

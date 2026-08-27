@@ -27,10 +27,18 @@ export function insuranceAnnual(house: House): number {
   return Math.round(city.insuranceBase * (house.price / city.medianPrice));
 }
 
+export const PMI_ANNUAL_RATE = 0.0075; // ~0.75%/yr of the loan while under 20% down
+
+/** Monthly PMI owed on a loan when the down payment is below 20%. */
+export function monthlyPMI(loan: number, downPct: number): number {
+  return downPct < 20 && loan > 0 ? (loan * PMI_ANNUAL_RATE) / 12 : 0;
+}
+
 export interface MonthlyBreakdown {
   pi: number;
   tax: number;
   insurance: number;
+  pmi: number;
   hoa: number;
   total: number;
   downPayment: number;
@@ -42,11 +50,13 @@ export function monthlyBreakdown(
   ratePct = DEFAULT_RATE
 ): MonthlyBreakdown {
   const downPayment = house.price * (downPct / 100);
-  const pi = monthlyPI(house.price - downPayment, ratePct);
+  const loan = house.price - downPayment;
+  const pi = monthlyPI(loan, ratePct);
   const tax = taxAnnual(house) / 12;
   const insurance = insuranceAnnual(house) / 12;
+  const pmi = monthlyPMI(loan, downPct);
   const hoa = house.hoaMonthly;
-  return { pi, tax, insurance, hoa, total: pi + tax + insurance + hoa, downPayment };
+  return { pi, tax, insurance, pmi, hoa, total: pi + tax + insurance + pmi + hoa, downPayment };
 }
 
 /** Rule-of-thumb: housing should be ≤28% of gross income. */
