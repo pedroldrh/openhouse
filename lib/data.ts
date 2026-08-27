@@ -795,12 +795,18 @@ export function housesIn(city: CityId): House[] {
   return HOUSES.filter((h) => h.city === city);
 }
 
-/** Houses in other cities within ±15% of this one's price. */
+/** Houses in other cities near this one's price — widen the band if few match. */
 export function sameMoneyElsewhere(house: House): House[] {
-  return HOUSES.filter(
-    (h) =>
-      h.city !== house.city &&
-      h.id !== house.id &&
-      Math.abs(h.price - house.price) / house.price <= 0.15
-  ).sort((a, b) => Math.abs(a.price - house.price) - Math.abs(b.price - house.price));
+  const others = HOUSES.filter((h) => h.city !== house.city && h.id !== house.id);
+  for (const tolerance of [0.15, 0.4]) {
+    const matches = others.filter(
+      (h) => Math.abs(h.price - house.price) / house.price <= tolerance
+    );
+    if (matches.length >= 3 || tolerance === 0.4) {
+      return matches.sort(
+        (a, b) => Math.abs(a.price - house.price) - Math.abs(b.price - house.price)
+      );
+    }
+  }
+  return [];
 }

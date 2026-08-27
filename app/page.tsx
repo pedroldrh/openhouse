@@ -1,43 +1,54 @@
 import Link from "next/link";
-import BigSearch from "@/components/BigSearch";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HouseCard from "@/components/HouseCard";
-import { CITIES, cityHero, housesIn } from "@/lib/data";
-import { fmtCompact } from "@/lib/finance";
+import MoneyExplorer, { type HouseLite } from "@/components/MoneyExplorer";
+import { CITIES, HOUSES, cityHero, getCity, housesIn } from "@/lib/data";
+import { fmtCompact, incomeNeeded } from "@/lib/finance";
 import { ChevronRight } from "@/components/icons";
 
 export default function Home() {
+  // Compact per-house payload for the client-side money explorer
+  const lite: HouseLite[] = HOUSES.map((h) => {
+    const c = getCity(h.city)!;
+    return {
+      id: h.id,
+      city: h.city,
+      cityName: c.name,
+      state: c.state,
+      price: h.price,
+      incomeNeeded: Math.round(incomeNeeded(h)),
+      beds: h.beds,
+      baths: h.baths,
+      sqft: h.sqft,
+      neighborhood: h.neighborhood,
+      photo: h.photos[0],
+      forSale: h.forSale,
+    };
+  });
+
   return (
     <div>
       <Header />
 
       <main className="mx-auto px-6 md:px-10 xl:px-20">
-        {/* hero search */}
-        <section className="py-14 text-center md:py-20">
-          <h1 className="mx-auto max-w-3xl text-3xl font-semibold tracking-tight md:text-[44px] md:leading-[1.15]">
-            Window-shop homes across the country
-          </h1>
-          <p className="mx-auto mt-3 max-w-xl text-base text-muted md:text-lg">
-            Pick a city. See what&apos;s out there, what it really costs per month, and what the
-            same money buys somewhere else.
-          </p>
-          <div className="mt-8">
-            <BigSearch />
-          </div>
-        </section>
+        <MoneyExplorer
+          houses={lite}
+          cityOrder={CITIES.map((c) => ({ id: c.id, name: c.name, state: c.state }))}
+        />
 
-        {/* city tiles */}
-        <section>
-          <h2 className="text-[22px] font-semibold">Explore a city</h2>
-          <div className="mt-4 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
+        {/* city tiles — browsing as depth, not the front door */}
+        <section className="mt-6 border-t border-line pt-10">
+          <h2 className="text-[22px] font-semibold">Or explore a city</h2>
+          <div className="scrollbar-hide mt-4 flex gap-4 overflow-x-auto pb-2">
             {CITIES.map((c) => (
-              <Link key={c.id} href={`/city/${c.id}`} className="group">
+              <Link key={c.id} href={`/city/${c.id}`} className="group w-44 flex-shrink-0 md:w-52">
                 <div className="aspect-square overflow-hidden rounded-xl">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={cityHero(c)}
                     alt={c.name}
+                    loading="lazy"
                     className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                   />
                 </div>
@@ -61,7 +72,7 @@ export default function Home() {
             </Link>
             <div className="scrollbar-hide mt-4 flex gap-5 overflow-x-auto pb-2">
               {housesIn(c.id)
-                .slice(0, 6)
+                .slice(0, 8)
                 .map((h) => (
                   <div key={h.id} className="w-64 flex-shrink-0 md:w-72">
                     <HouseCard house={h} />

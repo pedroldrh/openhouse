@@ -4,7 +4,8 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HouseCard from "@/components/HouseCard";
 import OwnItCard from "@/components/OwnItCard";
-import { HOUSES, getHouse, housesIn, sameMoneyElsewhere } from "@/lib/data";
+import SameMoneyStrip from "@/components/SameMoneyStrip";
+import { HOUSES, getHouse, housesIn } from "@/lib/data";
 import { cityOf, fmtCompact, fmtMoney, insuranceAnnual, taxAnnual } from "@/lib/finance";
 import DetailActions from "./DetailActions";
 
@@ -17,7 +18,6 @@ export default async function HousePage({ params }: { params: Promise<{ id: stri
   const house = getHouse(id);
   if (!house) notFound();
   const city = cityOf(house);
-  const elsewhere = sameMoneyElsewhere(house).slice(0, 4);
   const nearby = housesIn(house.city).filter((h) => h.id !== house.id).slice(0, 4);
 
   const first = house.priceHistory[0];
@@ -68,6 +68,8 @@ export default async function HousePage({ params }: { params: Promise<{ id: stri
           <img src={house.photos[3]} alt="" className="h-full w-full object-cover" />
           {/* eslint-enable @next/next/no-img-element */}
         </div>
+
+        <SameMoneyStrip house={house} />
 
         <div className="mt-8 grid gap-12 lg:grid-cols-[1fr_24rem]">
           <div>
@@ -137,21 +139,6 @@ export default async function HousePage({ params }: { params: Promise<{ id: stri
             <OwnItCard house={house} />
           </div>
         </div>
-
-        {/* same money elsewhere */}
-        {elsewhere.length > 0 && (
-          <section className="mt-14 border-t border-line pt-10">
-            <h2 className="text-[22px] font-semibold">
-              What {fmtCompact(house.price)} buys somewhere else
-            </h2>
-            <p className="mt-1 text-muted">Same budget, different city. This is the fun part.</p>
-            <div className="mt-5 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
-              {elsewhere.map((h) => (
-                <HouseCard key={h.id} house={h} showCity />
-              ))}
-            </div>
-          </section>
-        )}
 
         {/* more in city */}
         <section className="mt-14 border-t border-line pt-10">
