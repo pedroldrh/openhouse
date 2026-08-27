@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import HouseCard from "@/components/HouseCard";
 import MoneyExplorer, { type HouseLite } from "@/components/MoneyExplorer";
 import { CITIES, HOUSES, cityHero, getCity, housesIn } from "@/lib/data";
-import { fmtCompact, incomeNeeded } from "@/lib/finance";
+import { fmtCompact, insuranceAnnual, taxAnnual } from "@/lib/finance";
 import { ChevronRight } from "@/components/icons";
 
 export default function Home() {
@@ -17,7 +17,8 @@ export default function Home() {
       cityName: c.name,
       state: c.state,
       price: h.price,
-      incomeNeeded: Math.round(incomeNeeded(h)),
+      // tax + insurance + HOA: the monthly costs that don't depend on the loan
+      fixedMonthly: Math.round(taxAnnual(h) / 12 + insuranceAnnual(h) / 12 + h.hoaMonthly),
       beds: h.beds,
       baths: h.baths,
       sqft: h.sqft,
