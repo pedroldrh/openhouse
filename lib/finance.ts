@@ -16,11 +16,13 @@ export function monthlyPI(principal: number, ratePct = DEFAULT_RATE, years = 30)
 }
 
 export function taxAnnual(house: House): number {
-  return house.price * cityOf(house).taxRate;
+  const rate = house.taxRateOverride ?? cityOf(house).taxRate;
+  return house.price * rate;
 }
 
-/** Insurance scales with home value relative to the city median. */
+/** Real quote when the pipeline has one; otherwise scale the city base by value. */
 export function insuranceAnnual(house: House): number {
+  if (house.insuranceAnnualOverride) return house.insuranceAnnualOverride;
   const city = cityOf(house);
   return Math.round(city.insuranceBase * (house.price / city.medianPrice));
 }

@@ -1,5 +1,6 @@
-// Curated seed data. In production this is replaced by the Zillow-scraper →
-// Supabase pipeline; the shapes below mirror what that pipeline will store.
+// Curated seed data + live data loader. Live listings come from the Apify
+// Zillow pipeline (scripts/fetch-live-data.mjs → data/live-houses.json).
+import liveHouses from "@/data/live-houses.json";
 
 export type CityId = "nyc" | "miami" | "san-diego" | "austin" | "chicago";
 export type Tier = "realistic" | "dream" | "absurd";
@@ -37,11 +38,15 @@ export interface House {
   photos: string[];
   priceHistory: { year: number; price: number }[];
   rentEstimate: number;
-  walkScore: number;
-  risk: string;
+  walkScore?: number;
+  risk?: string;
   description: string;
   features: string[];
   daysOnMarket?: number;
+  /** Real per-house figures from live data; fall back to city-level estimates */
+  taxRateOverride?: number;
+  insuranceAnnualOverride?: number;
+  zillowUrl?: string;
 }
 
 const img = (id: string, w = 1280) =>
@@ -141,7 +146,7 @@ export const TIERS: { id: Tier; label: string; blurb: string }[] = [
   { id: "absurd", label: "Absurd", blurb: "Just for fun — the top 0.1% of the market" },
 ];
 
-export const HOUSES: House[] = [
+const SEED_HOUSES: House[] = [
   // ─── New York City ───────────────────────────────────────────────
   {
     id: "nyc-astoria-condo", city: "nyc", tier: "realistic",
@@ -720,6 +725,11 @@ export const HOUSES: House[] = [
     features: ["360° lake + skyline views", "Private elevator landing", "Building pool + spa", "3 parking spaces"],
   },
 ];
+
+// Live data from the Apify Zillow pipeline (scripts/fetch-live-data.mjs).
+// When present it replaces the curated seed above; the seed stays as fallback.
+const LIVE_HOUSES = liveHouses as unknown as House[];
+export const HOUSES: House[] = LIVE_HOUSES.length > 0 ? LIVE_HOUSES : SEED_HOUSES;
 
 export function getCity(id: string): City | undefined {
   return CITIES.find((c) => c.id === id);

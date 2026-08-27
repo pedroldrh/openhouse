@@ -1,0 +1,3238 @@
+[
+ {
+  "id": "nyc-112514719",
+  "city": "nyc",
+  "tier": "realistic",
+  "title": "145-26 222nd Street",
+  "neighborhood": "Brookville",
+  "price": 1200000,
+  "forSale": true,
+  "beds": 6,
+  "baths": 4,
+  "sqft": 2000,
+  "lotSqft": 4000,
+  "yearBuilt": 2012,
+  "hoaMonthly": 0,
+  "pool": false,
+  "parking": "Open Parking",
+  "categories": [
+   "value"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/13aaf7d87a6851bb3ae900d11b7d29d4-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/682456fa909f43ddfdc1a5f0b18f21e4-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/50bc11d3decc540882008c31b8ece17f-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/f42e4893cc8ef4bf96f53fc69a6ca11f-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/db262717149cbfda7b4dbeae5cb69792-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2013,
+    "price": 603330
+   },
+   {
+    "year": 2026,
+    "price": 1200000
+   }
+  ],
+  "rentEstimate": 6000,
+  "description": "Welcome to 145-26 222nd Street, Springfield Gardens, NY 11413, a spacious and versatile property located in the heart of Springfield Gardens, Queens. This home features six bedrooms, four bathrooms, and a finished basement with two bedrooms, a bathroom, and a separate entrance, offering potential for an additional dwelling unit with the proper permits and Certificate of Occupancy.",
+  "features": [
+   "Heating: Natural Gas, Other",
+   "Cooling: Wall/Window Unit(s)",
+   "Open Parking"
+  ],
+  "daysOnMarket": 6,
+  "taxRateOverride": 0.0086,
+  "insuranceAnnualOverride": 4320,
+  "zillowUrl": "https://www.zillow.com/homedetails/14526-222nd-St-Springfield-Gardens-NY-11413/112514719_zpid/"
+ },
+ {
+  "id": "nyc-464782640",
+  "city": "nyc",
+  "tier": "realistic",
+  "title": "529 E 156th Street #68D",
+  "neighborhood": "Concourse",
+  "price": 400000,
+  "forSale": true,
+  "beds": 3,
+  "baths": 2,
+  "sqft": 1100,
+  "yearBuilt": 1994,
+  "hoaMonthly": 717,
+  "pool": false,
+  "parking": "1 Parking space",
+  "categories": [
+   "city",
+   "value"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/5adc89aab16bf5e077a42599773c9ce7-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/3feb4351d75b93bc9a988f6bf4217431-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/77bb0f8ea437d3e850dcac50698f6d4a-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/9a692cfba39a020be21faf28caa1d15c-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/7ab4778ea946dece0c29317b0429e951-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2026,
+    "price": 400000
+   }
+  ],
+  "rentEstimate": 2000,
+  "description": "If you are looking for an updated 3-bedroom, 1.5 Bathroom Duplex Condo in the South Bronx with parking, then this is one you will want to see. Located in a quiet and gated community, this unit features an updated kitchen, living room, a new washer and dryer in the unit, and updated bathrooms. The 2,5 train is a quick walk away, providing express trains to both the east and west sides of Manhattan.",
+  "features": [
+   "Heating: Natural Gas, Other",
+   "1 Parking space",
+   "HOA $717 monthly"
+  ],
+  "daysOnMarket": 2,
+  "taxRateOverride": 0.0097,
+  "insuranceAnnualOverride": 1440,
+  "zillowUrl": "https://www.zillow.com/homedetails/529-E-156th-St-68D-Bronx-NY-10455/464782640_zpid/"
+ },
+ {
+  "id": "nyc-30696592",
+  "city": "nyc",
+  "tier": "realistic",
+  "title": "986 77th St",
+  "neighborhood": "Dyker Heights",
+  "price": 1280000,
+  "forSale": true,
+  "beds": 3,
+  "baths": 2,
+  "sqft": 1344,
+  "lotSqft": 1850,
+  "yearBuilt": 1925,
+  "hoaMonthly": 0,
+  "pool": false,
+  "parking": "1 Open Parking space",
+  "categories": [
+   "classic"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/49c5750c37dd9bd5adf5cacf61bab067-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/bab001942c0b97b28d71e61f14a54fde-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/3b67f7999602ca20988aee7cfdc2c389-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/d8abee01be1e9ceb0674b26994159e2b-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/1405e3de4a7d5df0886aa6d4fe8146c3-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 1995,
+    "price": 192000
+   },
+   {
+    "year": 2009,
+    "price": 689000
+   },
+   {
+    "year": 2026,
+    "price": 1280000
+   }
+  ],
+  "rentEstimate": 3175,
+  "description": "Welcome to this beautifully maintained, newly updated Semi-Detached Brick home on a tree-lined block in the heart of Dyker Heights! This is a rare chance to own a home on one of the most desirable streets in prestigious Dyker Heights, a sought-after neighborhood known for its friendly community atmosphere, well-regarded schools, and easy access to Brooklyn, Manhattan, and Staten Island.",
+  "features": [
+   "Heating: Natural Gas, Hot Water",
+   "Cooling: Wall Unit(s), Window Unit(s)",
+   "1 Open Parking space",
+   "Top school rating 9/10 nearby"
+  ],
+  "daysOnMarket": 5,
+  "taxRateOverride": 0.0072,
+  "insuranceAnnualOverride": 4608,
+  "zillowUrl": "https://www.zillow.com/homedetails/986-77th-St-Brooklyn-NY-11228/30696592_zpid/"
+ },
+ {
+  "id": "nyc-32194947",
+  "city": "nyc",
+  "tier": "realistic",
+  "title": "12114 Grayson Street",
+  "neighborhood": "St. Albans",
+  "price": 685000,
+  "forSale": true,
+  "beds": 4,
+  "baths": 2,
+  "sqft": 1117,
+  "lotSqft": 5000,
+  "yearBuilt": 1950,
+  "hoaMonthly": 0,
+  "pool": false,
+  "parking": "1 Garage space",
+  "categories": [
+   "value"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/077bab3f94004b04973b21eefc1658c3-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/235a872ece480ce8f761d5ec867f9576-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/e9d37f64e177fdbe469e39d317b65f0c-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/d2a1c575381ae4863dc73c36ba26f999-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/a4e2d7a0fa42375282b41adfca0e0a1b-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2026,
+    "price": 685000
+   }
+  ],
+  "rentEstimate": 3425,
+  "description": "121-14 Grayson Street | Springfield Gardens, NY 11413\n\n4 Bedrooms &#183; 2 Full Baths &#183; Detached Garage &#183; 50 x 100 Lot \n\nWell-maintained all-brick Cape Cod on a full 50 x 100 lot in a quiet residential section of Springfield Gardens.",
+  "features": [
+   "Heating: Hot Water",
+   "Cooling: Wall/Window Unit(s)",
+   "1 Garage space",
+   "Garage",
+   "Top school rating 7/10 nearby"
+  ],
+  "daysOnMarket": 35,
+  "taxRateOverride": 0.0086,
+  "insuranceAnnualOverride": 2466,
+  "zillowUrl": "https://www.zillow.com/homedetails/12114-Grayson-St-Springfield-Gardens-NY-11413/32194947_zpid/"
+ },
+ {
+  "id": "nyc-32006321",
+  "city": "nyc",
+  "tier": "dream",
+  "title": "11115 76th Ave",
+  "neighborhood": "Forest Hills",
+  "price": 1799000,
+  "forSale": true,
+  "beds": 6,
+  "baths": 5,
+  "sqft": 2685,
+  "yearBuilt": 1930,
+  "hoaMonthly": 0,
+  "pool": false,
+  "parking": "No Data",
+  "categories": [
+   "classic",
+   "value"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/05e23d44615f34309070eaa4ba475ced-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/bc6ca8cea954021f66edaa29b6b3e3cc-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/2ca43338528622f16d93cc057100936a-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/9b1e52c4f503c80000f1a3a3067a1df4-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/1304f3f9bb6b400038050485799fa78f-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2010,
+    "price": 2900
+   },
+   {
+    "year": 2019,
+    "price": 1485000
+   },
+   {
+    "year": 2020,
+    "price": 1270000
+   },
+   {
+    "year": 2026,
+    "price": 1799000
+   }
+  ],
+  "rentEstimate": 6891,
+  "description": "Welcome to this stunning townhouse ideally located in a Forest Close! This remarkable property features six spacious bedrooms and four and a half luxurious bathrooms, making it perfect for families or those looking for extra space. The property is surrounded by an array of local amenities, including shopping, dining, and parks, ensuring everything you need is just moments away.",
+  "features": [
+   "Cooling: Central Air",
+   "No Data",
+   "Top school rating 10/10 nearby"
+  ],
+  "daysOnMarket": 6,
+  "taxRateOverride": 0.0086,
+  "insuranceAnnualOverride": 6476.4,
+  "zillowUrl": "https://www.zillow.com/homedetails/11115-76th-Ave-Forest-Hills-NY-11375/32006321_zpid/"
+ },
+ {
+  "id": "nyc-32004593",
+  "city": "nyc",
+  "tier": "dream",
+  "title": "85 Greenway Ter",
+  "neighborhood": "Forest Hills",
+  "price": 3850000,
+  "forSale": true,
+  "beds": 5,
+  "baths": 5,
+  "sqft": 5787,
+  "yearBuilt": 1910,
+  "hoaMonthly": 0,
+  "pool": false,
+  "parking": "Garage",
+  "categories": [
+   "classic",
+   "mansions",
+   "value"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/4a896149a4877f93f4ad955b13d68352-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/1f2c722a1846eb247eee6026dbaa4daf-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/89e25346b8511d25cf88a7d137fed1de-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/c59d85ae95a36eb8913e8060854755ba-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/55e764b058cbf7dfcc662eaa453496d6-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2026,
+    "price": 3850000
+   }
+  ],
+  "rentEstimate": 7496,
+  "description": "\u201cFOREST HILLS GARDENS FIELDSTONE TOWNHOUSE\u201d\r\n85 Greenway Terrace, Forest Hills Gardens, Queens, NY\r\n\r\nWe are pleased to present this architecturally distinctive, one-of-a-kind, semi-detached Fieldstone townhouse.",
+  "features": [
+   "Garage",
+   "Top school rating 10/10 nearby"
+  ],
+  "daysOnMarket": 105,
+  "taxRateOverride": 0.0086,
+  "insuranceAnnualOverride": 13860,
+  "zillowUrl": "https://www.zillow.com/homedetails/85-Greenway-Ter-Forest-Hills-Gardens-NY-11375/32004593_zpid/"
+ },
+ {
+  "id": "nyc-32005737",
+  "city": "nyc",
+  "tier": "dream",
+  "title": "50 Overhill Rd",
+  "neighborhood": "Forest Hills",
+  "price": 2988000,
+  "forSale": true,
+  "beds": 3,
+  "baths": 4,
+  "sqft": 3125,
+  "yearBuilt": 1920,
+  "hoaMonthly": 0,
+  "pool": false,
+  "parking": "No Data",
+  "categories": [
+   "classic"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/ea2f42c7804d84739b93df91d653be2d-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/3650802896e8837330e4c10354e8711a-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/d48f541a74d59b56816377594f66e9e7-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/6781771db3d43ff0b7454d285523b177-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/9d8431a599430b4cbe37fae568e50415-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2026,
+    "price": 2988000
+   }
+  ],
+  "rentEstimate": 7963,
+  "description": "BY APPOINTMENT ONLY. PLEASE TEXT ME. \nA rare opportunity to own a true architectural gem in the heart of Forest Hills Gardens. Built in 1926, this exquisite jewel box residence was designed by renowned architect Frank J.",
+  "features": [
+   "Cooling: Central Air",
+   "No Data",
+   "Top school rating 10/10 nearby"
+  ],
+  "daysOnMarket": 34,
+  "taxRateOverride": 0.0086,
+  "insuranceAnnualOverride": 10756.8,
+  "zillowUrl": "https://www.zillow.com/homedetails/50-Overhill-Rd-Flushing-NY-11375/32005737_zpid/"
+ },
+ {
+  "id": "nyc-2068952873",
+  "city": "nyc",
+  "tier": "absurd",
+  "title": "217 W 57th St #127/128",
+  "neighborhood": "Midtown",
+  "price": 128000000,
+  "forSale": true,
+  "beds": 8,
+  "baths": 10,
+  "sqft": 11535,
+  "yearBuilt": 2020,
+  "hoaMonthly": 20766,
+  "pool": true,
+  "parking": "No Data",
+  "categories": [
+   "pools",
+   "new",
+   "city",
+   "mansions"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/e790ef4aa31deebf080cf9083ad1ed00-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/920798545e2ea84a36e2d7040cd6aecc-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/990d75ef91fd2e14cf55baec2b42b124-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/cb677de76f8ac9e6b317e41c198e705b-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/c8e69662300552a7c9b958e1ace33724-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2021,
+    "price": 150000000
+   },
+   {
+    "year": 2024,
+    "price": 150000000
+   },
+   {
+    "year": 2026,
+    "price": 128000000
+   }
+  ],
+  "rentEstimate": 7106,
+  "description": "The Apex Duplex, occupying the 127th and 128th floors, is a distinguished home within Central Park Tower, standing as the highest duplex residence in the world. With sweeping views of Central Park, the Manhattan skyline, and beyond, it offers an unrivaled lifestyle at one of the most prestigious addresses on the globe.\n\nSpanning 11,535 square feet, this palatial duplex is a truly unique offering. ",
+  "features": [
+   "Private pool",
+   "Cooling: Central Air",
+   "No Data",
+   "HOA $20,766 monthly"
+  ],
+  "daysOnMarket": 290,
+  "taxRateOverride": 0.009000000000000001,
+  "insuranceAnnualOverride": 460800,
+  "zillowUrl": "https://www.zillow.com/homedetails/217-W-57th-St-127-128-New-York-NY-10019/2068952873_zpid/"
+ },
+ {
+  "id": "nyc-442165465",
+  "city": "nyc",
+  "tier": "absurd",
+  "title": "432 Park Ave Unit Penthouse 88",
+  "neighborhood": "Midtown",
+  "price": 88500000,
+  "forSale": true,
+  "beds": 4,
+  "baths": 8,
+  "sqft": 8200,
+  "yearBuilt": 2015,
+  "hoaMonthly": 34405,
+  "pool": true,
+  "parking": "No Data",
+  "categories": [
+   "pools",
+   "city",
+   "mansions"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/2cede52d4579a360f80913497de0037f-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/5ab32a3183801459e705b42fbaa1442a-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/db6682ae9552d0b5035c34b363b460c7-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/a26ecde545ba7e5c3539abaa86eeab78-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/09b30238fb2303d55387efffddd3d3b2-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2026,
+    "price": 88500000
+   }
+  ],
+  "rentEstimate": 442500,
+  "description": "Perched atop the entire 88th floor of 432 Park Avenue, this extraordinary penthouse offers a truly unmatched living experience. Encompassing approximately 8,400 square feet, the residence provides exceptional scale and flexibility, easily configurable as a five-bedroom home to suit a variety of lifestyles.\n\nBoasting breathtaking 360-degree panoramic views, the apartment captures vistas across\u2026",
+  "features": [
+   "Private pool",
+   "Cooling: Central Air",
+   "No Data",
+   "Top school rating 8/10 nearby",
+   "HOA $34,405 monthly"
+  ],
+  "daysOnMarket": 115,
+  "taxRateOverride": 0.009000000000000001,
+  "insuranceAnnualOverride": 318600,
+  "zillowUrl": "https://www.zillow.com/homedetails/432-Park-Ave-UNIT-PENTHOUSE-88-New-York-NY-10022/442165465_zpid/"
+ },
+ {
+  "id": "nyc-30714828",
+  "city": "nyc",
+  "tier": "realistic",
+  "title": "8887 16th Ave",
+  "neighborhood": "Bath Beach",
+  "price": 1170700,
+  "forSale": false,
+  "beds": 3,
+  "baths": 2,
+  "sqft": 1240,
+  "lotSqft": 2360,
+  "yearBuilt": 1940,
+  "hoaMonthly": 0,
+  "pool": false,
+  "parking": "1 Attached Garage space",
+  "categories": [
+   "offmarket",
+   "classic"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/7bf91b492107d95a497b9aebdbc04cf4-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/e1718391b9e466f4650f4e3cc63c9ead-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/ee350c760dd323ae0823143c13b3965d-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/95b581179a7c8e1b6c71d6bed83aaf84-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/2bbeba38fb9685b12a7b597d0a35b901-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2026,
+    "price": 1170700
+   }
+  ],
+  "rentEstimate": 3322,
+  "description": "Welcome to the heart of Bath Beach, Brooklyn! Nestled on a quiet, desirable block, this charming 20-foot-wide brick single-family home sits on an extra-deep 118-foot lot, offering generous indoor and outdoor living space. Complete with a community driveway and detached garage, this home combines comfort, convenience, and exceptional value.",
+  "features": [
+   "Heating: Natural Gas, Forced Air, Other",
+   "1 Attached Garage space",
+   "Garage",
+   "Top school rating 8/10 nearby"
+  ],
+  "daysOnMarket": 1,
+  "taxRateOverride": 0.0072,
+  "zillowUrl": "https://www.zillow.com/homedetails/8887-16th-Ave-Brooklyn-NY-11214/30714828_zpid/"
+ },
+ {
+  "id": "nyc-30784964",
+  "city": "nyc",
+  "tier": "realistic",
+  "title": "1928 E 35th St",
+  "neighborhood": "Marine Park",
+  "price": 830000,
+  "forSale": false,
+  "beds": 3,
+  "baths": 2,
+  "sqft": 1050,
+  "lotSqft": 1800,
+  "yearBuilt": 1925,
+  "hoaMonthly": 0,
+  "pool": false,
+  "parking": "1 Open Parking space",
+  "categories": [
+   "offmarket",
+   "classic"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/4f98ee2813c4e17843217682d0fc48b2-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/901abc391d4f279961e37f6b2f1603b8-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/88ba957c41b7f7ea14fcad5f90a65be2-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/3657493e342be8c9a89ae3d356b3b6a3-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/083a6120e4f26d78b8fc66c3f448a8cb-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2026,
+    "price": 830000
+   }
+  ],
+  "rentEstimate": 3592,
+  "description": "Ideally situated in the heart of Marine Park, this prime location colonial-style three-bedroom duplex offers the perfect blend of comfort, space, and convenience. This gorgeous turnkey brick-front home is located on a quiet mid-block and is truly move-in ready, featuring a charming front porch patio with awning, ideal for relaxing outdoors.",
+  "features": [
+   "Heating: Natural Gas, Baseboard",
+   "Cooling: A/C Unit",
+   "1 Open Parking space",
+   "Top school rating 7/10 nearby"
+  ],
+  "daysOnMarket": 1,
+  "taxRateOverride": 0.0072,
+  "zillowUrl": "https://www.zillow.com/homedetails/1928-E-35th-St-Brooklyn-NY-11234/30784964_zpid/"
+ },
+ {
+  "id": "nyc-30785242",
+  "city": "nyc",
+  "tier": "realistic",
+  "title": "1934 Ryder St",
+  "neighborhood": "Marine Park",
+  "price": 870000,
+  "forSale": false,
+  "beds": 4,
+  "baths": 2,
+  "sqft": 1568,
+  "lotSqft": 2000,
+  "yearBuilt": 1925,
+  "hoaMonthly": 0,
+  "pool": false,
+  "parking": "1 Carport space",
+  "categories": [
+   "offmarket",
+   "classic",
+   "value"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/dcedad1f799a0261b001641928bf7de0-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/6054068678878fa2e72205aada7a5826-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/1deb54706d645dda602e5c6aa8931d39-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/364e05b27a01bf6688a3a76fa4206f18-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/50baf4c0713090a5094b7238f2bc6ee9-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 1995,
+    "price": 177000
+   },
+   {
+    "year": 2026,
+    "price": 870000
+   }
+  ],
+  "rentEstimate": 4708,
+  "description": "This semi-detached four-bedroom duplex with a finished basement is a true rarity in Marine Park\u2014offering exceptional space, classic charm, and endless potential on one of the neighborhood\u2019s most desirable blocks.",
+  "features": [
+   "Heating: Natural Gas, Steam/Radiator",
+   "1 Carport space",
+   "Top school rating 7/10 nearby"
+  ],
+  "daysOnMarket": 1,
+  "taxRateOverride": 0.0072,
+  "zillowUrl": "https://www.zillow.com/homedetails/1934-Ryder-St-Brooklyn-NY-11234/30785242_zpid/"
+ },
+ {
+  "id": "nyc-79505372",
+  "city": "nyc",
+  "tier": "dream",
+  "title": "25 E 86th St #2E",
+  "neighborhood": "Upper East Side",
+  "price": 2100000,
+  "forSale": false,
+  "beds": 2,
+  "baths": 2,
+  "sqft": 1590,
+  "yearBuilt": 1926,
+  "hoaMonthly": 3140,
+  "pool": false,
+  "parking": "No Data",
+  "categories": [
+   "offmarket",
+   "classic",
+   "city"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/89f2adb0f7300008425553cdeba2ff58-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/591917c6424d650789fe499bca9071a6-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/2f3640e19d9d70b554c1854a2a9fb30d-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/38ebb756238c5c6c27ca7cd823719331-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/8b16ad0f589af8240536455790155387-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2026,
+    "price": 2100000
+   }
+  ],
+  "rentEstimate": 4395,
+  "description": "Elegant Classic Five residence off 5th Ave on 86th Street\n25 East 86th Street 2E\n\nThis elegant and spacious Classic Five residence is ideally situated in one of Carnegie Hill\u2019s premier white-glove prewar cooperatives.",
+  "features": [
+   "No Data",
+   "Top school rating 10/10 nearby",
+   "HOA $3,140 monthly"
+  ],
+  "daysOnMarket": 1,
+  "insuranceAnnualOverride": 7560,
+  "zillowUrl": "https://www.zillow.com/homedetails/25-E-86th-St-2E-New-York-NY-10028/79505372_zpid/"
+ },
+ {
+  "id": "miami-2098418308",
+  "city": "miami",
+  "tier": "realistic",
+  "title": "2100 SW 25th St",
+  "neighborhood": "Coral Way",
+  "price": 450000,
+  "forSale": true,
+  "beds": 6,
+  "baths": 3,
+  "sqft": 2147,
+  "lotSqft": 7150,
+  "yearBuilt": 1940,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "Open Parking",
+  "categories": [
+   "pools",
+   "classic",
+   "value",
+   "backyard"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/fc1e980c226ab2ce61e731e85d60a2e8-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/72fa06a6bb3607c6adcf24c2b5161bd6-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/8aba2d65a01311c2f4da57b550af90e6-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/4a7aa82ea4821114ead07bd8c81384b6-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/55b854bab1ad2adf250c595e1423a1a0-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2022,
+    "price": 775000
+   },
+   {
+    "year": 2024,
+    "price": 800000
+   },
+   {
+    "year": 2025,
+    "price": 899000
+   },
+   {
+    "year": 2026,
+    "price": 450000
+   }
+  ],
+  "rentEstimate": 6793,
+  "description": "This rare and exciting corner lot in the highly desirable Silver Bluff Estates, Citrus Park Subdivision. Positioned for redevelopment, offering strong upside for investors and developers, or as a site for a prime single-family home in one of Miami\u2019s most coveted neighborhoods.",
+  "features": [
+   "Private pool",
+   "Heating: Central",
+   "Cooling: Central Air",
+   "Open Parking"
+  ],
+  "daysOnMarket": 14,
+  "taxRateOverride": 0.0184,
+  "insuranceAnnualOverride": 1620,
+  "zillowUrl": "https://www.zillow.com/homedetails/2100-SW-25th-St-Miami-FL-33133/2098418308_zpid/"
+ },
+ {
+  "id": "miami-43962605",
+  "city": "miami",
+  "tier": "realistic",
+  "title": "790 E 6th Pl",
+  "neighborhood": "Sun-Tan Village",
+  "price": 489000,
+  "forSale": true,
+  "beds": 3,
+  "baths": 1,
+  "sqft": 936,
+  "lotSqft": 6000,
+  "yearBuilt": 1954,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "Other",
+  "categories": [
+   "pools",
+   "backyard"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/1102993ff56e6b8ddd84f8573751765b-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/56125e9b25a3a7109cff30a0c06af9d0-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/0772f335ec4bfc1b7cb4173b2a3fd310-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/ff182f9f767f187af4de0d7d819b93f6-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/52461492bfd63ab8c993c52f4b516e4d-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2026,
+    "price": 489000
+   }
+  ],
+  "rentEstimate": 2445,
+  "description": "Great starter home with major recent improvements! This 3-bedroom, 1-bath home features a new roof, updated plumbing, termite fumigation, and fresh interior and exterior paint. The spacious, fenced backyard offers plenty of room for entertaining, gardening, a future pool, or expansion and includes a large storage shed.",
+  "features": [
+   "Private pool",
+   "Heating: Window/Wall",
+   "Cooling: Wall/Window Unit(s)",
+   "Other"
+  ],
+  "daysOnMarket": 55,
+  "taxRateOverride": 0.0184,
+  "insuranceAnnualOverride": 1760.3999999999999,
+  "zillowUrl": "https://www.zillow.com/homedetails/790-E-6th-Pl-Hialeah-FL-33010/43962605_zpid/"
+ },
+ {
+  "id": "miami-43840578",
+  "city": "miami",
+  "tier": "realistic",
+  "title": "2723 NW 3rd St",
+  "neighborhood": "Alameda - West Flagler",
+  "price": 500000,
+  "forSale": true,
+  "beds": 2,
+  "baths": 1,
+  "sqft": 1902,
+  "lotSqft": 7930,
+  "yearBuilt": 1940,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "Open Parking",
+  "categories": [
+   "pools",
+   "classic",
+   "value",
+   "backyard"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/67e1f8986c229788421983e6afe550d6-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/99ed5acea8a3717efd8c7c7b2d2cfac1-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/734f6889fc494d69ba551de496d7cf6a-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/f97440f424cbe7d4c29585aa6172f34a-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/97e48b0b1dd93f83d0b08f40bb9d2aec-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2000,
+    "price": 151000
+   },
+   {
+    "year": 2005,
+    "price": 330000
+   },
+   {
+    "year": 2012,
+    "price": 170000
+   },
+   {
+    "year": 2026,
+    "price": 500000
+   }
+  ],
+  "rentEstimate": 1994,
+  "description": "Prime redevelopment opportunity or remodel in a highly desirable Miami location surrounded by new construction and continued investment. Ideal for developers, investors, or end users looking to build a custom residence or renovate the existing property. Centrally located near Coral Gables, Coconut Grove, Brickell, top schools, dining, and shopping.",
+  "features": [
+   "Private pool",
+   "Heating: Central",
+   "Cooling: Central Air",
+   "Open Parking"
+  ],
+  "daysOnMarket": 4,
+  "taxRateOverride": 0.0184,
+  "insuranceAnnualOverride": 1800,
+  "zillowUrl": "https://www.zillow.com/homedetails/2723-NW-3rd-St-Miami-FL-33125/43840578_zpid/"
+ },
+ {
+  "id": "miami-44204904",
+  "city": "miami",
+  "tier": "realistic",
+  "title": "9441 SW 52nd Ter",
+  "neighborhood": "Miami",
+  "price": 875000,
+  "forSale": true,
+  "beds": 3,
+  "baths": 2,
+  "sqft": 1707,
+  "lotSqft": 7500,
+  "yearBuilt": 1962,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "1 Garage space",
+  "categories": [
+   "pools",
+   "backyard"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/a664af76dbd5569dd7c9ca2a5b25c4ab-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/af38105ee16f53909ff2ce086fd407af-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/9559233d0db8e56e99307d5fad50eb32-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/e8127f7f02f4e055771f7640b543149b-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/54748710cb11539cb3a6b5eca07369f2-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2022,
+    "price": 577000
+   },
+   {
+    "year": 2026,
+    "price": 875000
+   }
+  ],
+  "rentEstimate": 4375,
+  "description": "Fully Renovated Coastal-Chic Home in Southwest Miami!  Welcome to 9441 SW 52nd Terrace, a beautifully renovated 3-bedroom, 2-bathroom home offering the perfect combination of modern upgrades, timeless coastal-chic style, and an exceptional Southwest Miami location.",
+  "features": [
+   "Private pool",
+   "Cooling: Ceiling Fan(s), Central Air",
+   "1 Garage space",
+   "Garage",
+   "Top school rating 8/10 nearby"
+  ],
+  "daysOnMarket": 6,
+  "taxRateOverride": 0.0184,
+  "insuranceAnnualOverride": 3150,
+  "zillowUrl": "https://www.zillow.com/homedetails/9441-SW-52nd-Ter-Miami-FL-33165/44204904_zpid/"
+ },
+ {
+  "id": "miami-43999213",
+  "city": "miami",
+  "tier": "dream",
+  "title": "6473 Sunset Dr",
+  "neighborhood": "South Miami",
+  "price": 1398000,
+  "forSale": true,
+  "beds": 3,
+  "baths": 3,
+  "sqft": 2557,
+  "lotSqft": 5880,
+  "yearBuilt": 1989,
+  "hoaMonthly": 736,
+  "pool": true,
+  "parking": "2 Garage spaces",
+  "categories": [
+   "pools"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/ae91e1208fd3bdba94425fbee60d6507-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/4ecc43105e390303824273c7740e6ab2-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/743817582f5d0aa3d9a09423187667eb-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/d4e0a28397f3640c51a369826e683a4d-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/f8549623f6cca5a190c860f5a77653cd-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 1995,
+    "price": 282500
+   },
+   {
+    "year": 2006,
+    "price": 600000
+   },
+   {
+    "year": 2013,
+    "price": 670000
+   },
+   {
+    "year": 2026,
+    "price": 1398000
+   }
+  ],
+  "rentEstimate": 7645,
+  "description": "Tucked behind lush tropical landscaping in a quiet, gated South Miami community, this 3-bedroom, 3-bathroom Key West-style home offers 2,557 sq ft of thoughtfully updated living space on a private, tree-canopied lot.",
+  "features": [
+   "Private pool",
+   "Heating: Central, Electric",
+   "Cooling: Central Air, Electric",
+   "2 Garage spaces",
+   "Garage",
+   "Top school rating 8/10 nearby",
+   "HOA $736 monthly"
+  ],
+  "daysOnMarket": 1,
+  "taxRateOverride": 0.0184,
+  "insuranceAnnualOverride": 5032.8,
+  "zillowUrl": "https://www.zillow.com/homedetails/6473-Sunset-Dr-South-Miami-FL-33143/43999213_zpid/"
+ },
+ {
+  "id": "miami-43866792",
+  "city": "miami",
+  "tier": "dream",
+  "title": "2311 SW 5th Ave",
+  "neighborhood": "Coral Way",
+  "price": 2390000,
+  "forSale": true,
+  "beds": 4,
+  "baths": 4,
+  "sqft": 3036,
+  "lotSqft": 5715,
+  "yearBuilt": 1980,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "1 Garage space",
+  "categories": [
+   "pools"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/7041928c255d74af08122517f19fd897-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/114ee0173ac31852e18df92f0225c2c3-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/cd0da5acd073d5c3648089cf906a3b8a-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/91a1d1e2e8f982c5ed2290f5b959abb1-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/2aef76b192fab91a2725ba5f37a547aa-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2026,
+    "price": 2390000
+   }
+  ],
+  "rentEstimate": 7409,
+  "description": "Exceptional renovated 4-bedroom, 4-bathroom two-story single-family home in The Roads. Ideal for families, a second home, or vacation residence.  This turn-key property in Miami\u2019s prestigious Roads neighborhood has been fully updated and is uniquely well-equipped. Impact windows and doors throughout. Open kitchen with Miele appliances, abundant cabinetry, and a bar area.",
+  "features": [
+   "Private pool",
+   "Heating: Central",
+   "Cooling: Central Air",
+   "1 Garage space",
+   "Garage",
+   "Top school rating 8/10 nearby"
+  ],
+  "daysOnMarket": 6,
+  "taxRateOverride": 0.0184,
+  "insuranceAnnualOverride": 8604,
+  "zillowUrl": "https://www.zillow.com/homedetails/2311-SW-5th-Ave-Miami-FL-33129/43866792_zpid/"
+ },
+ {
+  "id": "miami-43918034",
+  "city": "miami",
+  "tier": "dream",
+  "title": "406 Miller Rd",
+  "neighborhood": "Riviera",
+  "price": 1975000,
+  "forSale": true,
+  "beds": 3,
+  "baths": 2,
+  "sqft": 1593,
+  "lotSqft": 6050,
+  "yearBuilt": 1968,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "1 Attached Garage space",
+  "categories": [
+   "pools",
+   "backyard"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/5fa4824627e687726cf3d1e6e9831d2d-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/9027baeeb95b0c855770e5ac3bb502c3-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/c46efab42e2fe8adebfc291ab58d0e5f-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/39b238952f229d94f6ab82cdcdbb257d-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/3c375d90c66bfffb6ef9defdad15c8fc-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2004,
+    "price": 512000
+   },
+   {
+    "year": 2022,
+    "price": 950000
+   },
+   {
+    "year": 2023,
+    "price": 1470000
+   },
+   {
+    "year": 2026,
+    "price": 1975000
+   }
+  ],
+  "rentEstimate": 6415,
+  "description": "A rare renovated pool home in the heart of South Gables, blending modern design with effortless indoor-outdoor living. This 3-bedroom residence features a spacious redesigned kitchen with quartz countertops, updated appliances, and an open flow ideal for everyday living and entertaining.",
+  "features": [
+   "Private pool",
+   "Heating: Central",
+   "Cooling: Central Air",
+   "1 Attached Garage space",
+   "Garage",
+   "Top school rating 10/10 nearby"
+  ],
+  "daysOnMarket": 8,
+  "taxRateOverride": 0.0184,
+  "insuranceAnnualOverride": 7110,
+  "zillowUrl": "https://www.zillow.com/homedetails/406-Miller-Rd-Coral-Gables-FL-33146/43918034_zpid/"
+ },
+ {
+  "id": "miami-44029919",
+  "city": "miami",
+  "tier": "absurd",
+  "title": "485 W Matheson Dr",
+  "neighborhood": "Key Biscayne",
+  "price": 237000000,
+  "forSale": true,
+  "beds": 5,
+  "baths": 9,
+  "sqft": 11528,
+  "lotSqft": 103773,
+  "yearBuilt": 1981,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "2 Attached Garage spaces",
+  "categories": [
+   "pools",
+   "mansions"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/c2a227c91a36eaaa65eeb9e104ae5fce-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/d38a0f4ec827096192c7b38b05653763-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/6f23a6d6b8bffa44862f8c3039911c55-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/0427ad26c603be084173d9726570abc8-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/f1891ca94b0e558dfc1ff60c6cbdac36-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2004,
+    "price": 15000000
+   },
+   {
+    "year": 2007,
+    "price": 38500000
+   },
+   {
+    "year": 2026,
+    "price": 237000000
+   }
+  ],
+  "rentEstimate": 1185000,
+  "description": "485 W Matheson Drive is one of America\u2019s most iconic waterfront estates, representing a rare convergence of presidential history, cinematic legacy, and unparalleled waterfront scale. Set on approximately 2.38 acres with an extraordinary 862\u2019 of direct Biscayne Bay frontage, the property captures sweeping, unobstructed views of the Miami skyline and open bay, offering a level of presence and\u2026",
+  "features": [
+   "Private pool",
+   "Heating: Central, Electric",
+   "Cooling: Central Air, Electric",
+   "2 Attached Garage spaces",
+   "Garage",
+   "Top school rating 8/10 nearby"
+  ],
+  "daysOnMarket": 114,
+  "taxRateOverride": 0.0184,
+  "insuranceAnnualOverride": 853200,
+  "zillowUrl": "https://www.zillow.com/homedetails/485-W-Matheson-Dr-Key-Biscayne-FL-33149/44029919_zpid/"
+ },
+ {
+  "id": "miami-460070986",
+  "city": "miami",
+  "tier": "absurd",
+  "title": "600-620 Arvida Pkwy",
+  "neighborhood": "Gables Estates",
+  "price": 175000000,
+  "forSale": true,
+  "beds": 10,
+  "baths": 18,
+  "sqft": 21145,
+  "lotSqft": 94961,
+  "yearBuilt": 2017,
+  "hoaMonthly": 625,
+  "pool": true,
+  "parking": "8 Attached Garage spaces",
+  "categories": [
+   "pools",
+   "mansions"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/605cb25d94e55d782367ad3df12cd493-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/7fc18c0faeb083ee28b83f134113c117-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/b3d95f599fa39fc15ecf3c9942acc2cd-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/9402d201a24831ecb2f7b2b45f4a9bdd-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/0f20b91c61e6ab10a01e711ec0c6d6ad-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2026,
+    "price": 175000000
+   }
+  ],
+  "rentEstimate": 875000,
+  "description": "Ultra exclusive Gables Estates residence designed by renowned architect Cesar Molina. Villa Serenity is a modern tropical waterfront estate situated on over 2 acres, offering 35,000+SF across multiple structures & 335ft of pristine waterfront.Estate features 10+ beds, 14 baths & 2 half baths, designed for large-scale entertaining & private living.",
+  "features": [
+   "Private pool",
+   "Heating: Central, Electric",
+   "Cooling: Central Air, Electric",
+   "8 Attached Garage spaces",
+   "Garage",
+   "Top school rating 10/10 nearby",
+   "HOA $7,500 annually"
+  ],
+  "daysOnMarket": 209,
+  "taxRateOverride": 0.0184,
+  "insuranceAnnualOverride": 630000,
+  "zillowUrl": "https://www.zillow.com/homedetails/600-620-Arvida-Pkwy-Miami-FL-33156/460070986_zpid/"
+ },
+ {
+  "id": "miami-43884569",
+  "city": "miami",
+  "tier": "realistic",
+  "title": "5255 Collins Ave APT 9F",
+  "neighborhood": "Oceanfront",
+  "price": 832900,
+  "forSale": false,
+  "beds": 1,
+  "baths": 2,
+  "sqft": 1475,
+  "yearBuilt": 1963,
+  "hoaMonthly": 2298,
+  "pool": true,
+  "parking": "1 Garage space",
+  "categories": [
+   "pools",
+   "offmarket",
+   "city"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/57b4397444489495456a3699e2708250-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/b14bf2da35c3defba862a640a0a356f9-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/410bc6adc1eb536548a30d96d3e6a86f-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/842449ba7893ec6cc7774e35fdf0008c-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/a7e742f69e7eed041157350302508e0c-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2017,
+    "price": 2700
+   },
+   {
+    "year": 2019,
+    "price": 2300
+   },
+   {
+    "year": 2022,
+    "price": 510000
+   },
+   {
+    "year": 2026,
+    "price": 832900
+   }
+  ],
+  "rentEstimate": 4245,
+  "description": "Spacious 1475SF 1 Bedroom 2 Bath apartment located at historic OCEANFRONT BLDG by reputed architect Melvin Grossman. This 9th floor HIGHLY DESIRABLE F-line apartment at Imperial House enjoys stunning DIRECT OCEAN VIEWS. Brand new HURRICANE IMPACT WINDOWS. Charming as is or reconfigure/renovate to personal taste.",
+  "features": [
+   "Private pool",
+   "Heating: Other",
+   "Cooling: Zoned",
+   "1 Garage space",
+   "Garage",
+   "Top school rating 10/10 nearby",
+   "HOA $2,298 monthly"
+  ],
+  "daysOnMarket": 1,
+  "taxRateOverride": 0.0184,
+  "zillowUrl": "https://www.zillow.com/homedetails/5255-Collins-Ave-APT-9F-Miami-Beach-FL-33140/43884569_zpid/"
+ },
+ {
+  "id": "miami-43915457",
+  "city": "miami",
+  "tier": "dream",
+  "title": "3908 Anderson Rd",
+  "neighborhood": "Coral Gables",
+  "price": 2043300,
+  "forSale": false,
+  "beds": 4,
+  "baths": 4,
+  "sqft": 1982,
+  "lotSqft": 5000,
+  "yearBuilt": 1996,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "Open Parking",
+  "categories": [
+   "pools",
+   "offmarket"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/29abdc20d56da6e2e4a2d10a2e46154d-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/382e75966b17b3565479cabeac9dfa13-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/4ebffd11cb95165a48d8204f9b38d0f1-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/3a8298983ee67139d37c05b5ca5f9717-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/0e41ddc5980c993ebf367477e821d97a-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2013,
+    "price": 3200
+   },
+   {
+    "year": 2023,
+    "price": 7000
+   },
+   {
+    "year": 2024,
+    "price": 1200000
+   },
+   {
+    "year": 2026,
+    "price": 2043300
+   }
+  ],
+  "rentEstimate": 7933,
+  "description": "Welcome to this stunning Mediterranean-inspired two-story residence in the highly desirable North Gables. Enter through grand mahogany double doors into an elegant foyer featuring soaring volume ceilings, pristine marble floors, and a striking mahogany staircase.",
+  "features": [
+   "Private pool",
+   "Heating: Central",
+   "Cooling: Central Air",
+   "Open Parking",
+   "Top school rating 10/10 nearby"
+  ],
+  "daysOnMarket": 1,
+  "taxRateOverride": 0.0184,
+  "zillowUrl": "https://www.zillow.com/homedetails/3908-Anderson-Rd-Coral-Gables-FL-33134/43915457_zpid/"
+ },
+ {
+  "id": "miami-43956098",
+  "city": "miami",
+  "tier": "realistic",
+  "title": "521 E 33rd St",
+  "neighborhood": "Hialeah",
+  "price": 542400,
+  "forSale": false,
+  "beds": 2,
+  "baths": 1,
+  "sqft": 810,
+  "lotSqft": 8280,
+  "yearBuilt": 1952,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "Open Parking",
+  "categories": [
+   "pools",
+   "offmarket",
+   "backyard"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/44f9dfcaff6d1a9fff919bf355d2364d-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/cbb2ad5a330ca8e51d5b9350a51e2b3f-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/13dff1242d48247fc1b841779eff7129-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/719bc0d1c9c2e32f3215f5404b41d177-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/826d9e6602b52110fd46a75da2756134-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2025,
+    "price": 380000
+   },
+   {
+    "year": 2026,
+    "price": 542400
+   }
+  ],
+  "rentEstimate": 2454,
+  "description": "Completely Remodeled & Move-In Ready! This beautifully renovated 2/1 home at 521 E 33rd St has been updated from top to bottom with quality finishes throughout. Features include a new roof, impact windows and doors, a brand-new kitchen with modern cabinetry and countertops, and fully renovated bathrooms.",
+  "features": [
+   "Private pool",
+   "Heating: Central",
+   "Cooling: Central Air",
+   "Open Parking"
+  ],
+  "daysOnMarket": 1,
+  "taxRateOverride": 0.0184,
+  "zillowUrl": "https://www.zillow.com/homedetails/521-E-33rd-St-Hialeah-FL-33013/43956098_zpid/"
+ },
+ {
+  "id": "miami-44006582",
+  "city": "miami",
+  "tier": "dream",
+  "title": "50 NE 110th St",
+  "neighborhood": "Miami Shores",
+  "price": 1230800,
+  "forSale": false,
+  "beds": 3,
+  "baths": 2,
+  "sqft": 1822,
+  "lotSqft": 9300,
+  "yearBuilt": 1947,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "1 Attached Garage space",
+  "categories": [
+   "pools",
+   "offmarket",
+   "backyard"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/037168419e7db4b08aeb18ed5458a6b6-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/f39f099dd4e591cdd3c9f2a74acedff7-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/664ac8ced976ab4366d3eff712a00cdb-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/8240f25c0c5070e98eb420c33bcd3adf-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/de9a8dc5a78e99a248d3643cf3ab465d-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2005,
+    "price": 500000
+   },
+   {
+    "year": 2007,
+    "price": 482500
+   },
+   {
+    "year": 2009,
+    "price": 509000
+   },
+   {
+    "year": 2026,
+    "price": 1230800
+   }
+  ],
+  "rentEstimate": 7500,
+  "description": "Tucked away on a quiet, tree-lined cul-de-sac, this Miami Shores midcentury charmer blends timeless design with seamless indoor-outdoor living. Beautiful original hardwood floors & midcentury ceiling trim preserve the home\u2019s character, while thoughtful updates add comfort & functionality for modern living.",
+  "features": [
+   "Private pool",
+   "Heating: Central, Electric",
+   "Cooling: Central Air, Electric",
+   "1 Attached Garage space",
+   "Garage",
+   "Top school rating 7/10 nearby"
+  ],
+  "daysOnMarket": 1,
+  "taxRateOverride": 0.0184,
+  "zillowUrl": "https://www.zillow.com/homedetails/50-NE-110th-St-Miami-Shores-FL-33161/44006582_zpid/"
+ },
+ {
+  "id": "san-diego-17124931",
+  "city": "san-diego",
+  "tier": "realistic",
+  "title": "8284 Brookhaven Rd",
+  "neighborhood": "Skyline",
+  "price": 799900,
+  "forSale": true,
+  "beds": 4,
+  "baths": 2,
+  "sqft": 1248,
+  "lotSqft": 6098.4,
+  "yearBuilt": 1969,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "2 Garage spaces",
+  "categories": [
+   "pools",
+   "value",
+   "backyard"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/69eac178395e6378a6185311099b7881-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/d533fd7f0657051cddca7574dcc30ce2-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/7c4220576930824b7dfd4a93f69971a9-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/d055ab36ab4b395b20b2439a02d9495c-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/f5e3c77251cb5f0774634aec411fa4fd-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2026,
+    "price": 799900
+   }
+  ],
+  "rentEstimate": 4000,
+  "description": "Wake up to picturesque mountain views in this beautifully remodeled 4 bed, 2 bath home. With a spacious primary suite, private backyard, and large patio, this home is designed for comfortable living and effortless entertaining.",
+  "features": [
+   "Private pool",
+   "Heating: Forced Air Unit",
+   "Cooling: N/K",
+   "2 Garage spaces",
+   "Garage",
+   "Top school rating 7/10 nearby"
+  ],
+  "daysOnMarket": 6,
+  "taxRateOverride": 0.011699999999999999,
+  "insuranceAnnualOverride": 2879.64,
+  "zillowUrl": "https://www.zillow.com/homedetails/8284-Brookhaven-Rd-San-Diego-CA-92114/17124931_zpid/"
+ },
+ {
+  "id": "san-diego-17119720",
+  "city": "san-diego",
+  "tier": "realistic",
+  "title": "152 Welling Way",
+  "neighborhood": "Skyline",
+  "price": 799999,
+  "forSale": true,
+  "beds": 4,
+  "baths": 3,
+  "sqft": 1976,
+  "lotSqft": 8276,
+  "yearBuilt": 1961,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "No Data",
+  "categories": [
+   "pools",
+   "value"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/6dfe5c4aee7470fb7582f1cf5bcce596-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/a4f27ef2d15aefd21636fa897dec26e7-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/e0eea7c9d782c9ed65c6df5b44f12d09-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/f45b6059a692c380bc22dbef42bc8eab-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/d8de1bb09ac2b5bd158870f7fbe42a9d-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 1993,
+    "price": 104000
+   },
+   {
+    "year": 1994,
+    "price": 133000
+   },
+   {
+    "year": 2026,
+    "price": 799999
+   }
+  ],
+  "rentEstimate": 4464,
+  "description": "Welcome to this spacious two-story home, thoughtfully designed with comfort, functionality, and entertaining in mind.  Offering 4 bedrooms, 3 bathrooms, and approximately 1,976 square feet of living space, this home sits on an expansive 8,100-square-foot corner lot that provides added privacy, curb appeal, and room to grow.",
+  "features": [
+   "Private pool",
+   "Cooling: Central Air",
+   "No Data",
+   "Top school rating 7/10 nearby"
+  ],
+  "daysOnMarket": 9,
+  "taxRateOverride": 0.011699999999999999,
+  "insuranceAnnualOverride": 2879.9964,
+  "zillowUrl": "https://www.zillow.com/homedetails/152-Welling-Way-San-Diego-CA-92114/17119720_zpid/"
+ },
+ {
+  "id": "san-diego-16956814",
+  "city": "san-diego",
+  "tier": "realistic",
+  "title": "2911 Madison Ave",
+  "neighborhood": "North Park",
+  "price": 1699000,
+  "forSale": true,
+  "beds": 3,
+  "baths": 4,
+  "sqft": 2020,
+  "lotSqft": 4791.6,
+  "yearBuilt": 1923,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "3 Parking spaces",
+  "categories": [
+   "pools",
+   "classic"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/8e7433f5ddd7358b5e184c96a3f21401-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/233ebbdbdb59532b37bdcfea0171d300-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/4e0bb00d0e78afdf512b324be2744990-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/35ac5b57206f4a1666a84d0be3fa9b86-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/a6506d66cd029d1b10fcb3d42d424455-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 1997,
+    "price": 133000
+   },
+   {
+    "year": 2023,
+    "price": 1200000
+   },
+   {
+    "year": 2026,
+    "price": 1699000
+   }
+  ],
+  "rentEstimate": 4629,
+  "description": "Most properties with three units feel like three units. This one feels like a house.  A University Heights Craftsman, fully renovated, permitted, and separately metered, set up as a 2 bed, 2 bath main residence, a studio with a full kitchen, and a detached 1 bed, 1 bath ADU. Approximately 2,020 square feet total, each with a private entrance and private outdoor space.",
+  "features": [
+   "Private pool",
+   "Heating: Fireplace",
+   "Cooling: Other/Remarks",
+   "3 Parking spaces",
+   "Top school rating 7/10 nearby"
+  ],
+  "daysOnMarket": 8,
+  "taxRateOverride": 0.011699999999999999,
+  "insuranceAnnualOverride": 6116.4,
+  "zillowUrl": "https://www.zillow.com/homedetails/2911-Madison-Ave-San-Diego-CA-92116/16956814_zpid/"
+ },
+ {
+  "id": "san-diego-63777888",
+  "city": "san-diego",
+  "tier": "realistic",
+  "title": "525 11th Ave Unit 1512",
+  "neighborhood": "East Village",
+  "price": 775000,
+  "forSale": true,
+  "beds": 2,
+  "baths": 2,
+  "sqft": 1204,
+  "lotSqft": 38768,
+  "yearBuilt": 2004,
+  "hoaMonthly": 732,
+  "pool": true,
+  "parking": "2 Garage spaces",
+  "categories": [
+   "pools",
+   "city",
+   "value"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/6a609225323c8e119a390c16da061fe6-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/8f37abdafb808d6095796c0d5da6844a-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/c42273993cfa88a83850f9dbb00e4d3f-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/0cafed9c2d81a014308c609d9868438e-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/bb3bc9ab4ebc09f5145bf273fe43fd3e-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2015,
+    "price": 551500
+   },
+   {
+    "year": 2026,
+    "price": 775000
+   }
+  ],
+  "rentEstimate": 4246,
+  "description": "Experience elevated downtown living in this completely modern, two-story southwest-facing penthouse, where soaring 18-foot ceilings, abundant natural light and custom designer finishes create a truly one-of-a-kind residence.",
+  "features": [
+   "Private pool",
+   "Heating: Forced Air Unit",
+   "Cooling: Central Forced Air",
+   "2 Garage spaces",
+   "Garage",
+   "HOA $732 monthly"
+  ],
+  "taxRateOverride": 0.011699999999999999,
+  "insuranceAnnualOverride": 2790,
+  "zillowUrl": "https://www.zillow.com/homedetails/525-11th-Ave-UNIT-1512-San-Diego-CA-92101/63777888_zpid/"
+ },
+ {
+  "id": "san-diego-16972225",
+  "city": "san-diego",
+  "tier": "dream",
+  "title": "2871 Brant St",
+  "neighborhood": "Bankers Hill",
+  "price": 2300000,
+  "forSale": true,
+  "beds": 4,
+  "baths": 3,
+  "sqft": 3358,
+  "lotSqft": 8092,
+  "yearBuilt": 1980,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "2 Attached Garage spaces",
+  "categories": [
+   "pools",
+   "backyard"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/b95a37134185f783b825be2214594fa5-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/263da3ac85c033abe8ff0df69a61017f-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/4f86cd723f5b803388cd3c12c0bedef7-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/053300f7c17c9a43388e60c3f316f0bf-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/dd6de4d7a247fc0491e17ce216a5baef-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2025,
+    "price": 2499000
+   },
+   {
+    "year": 2026,
+    "price": 2300000
+   }
+  ],
+  "rentEstimate": 6182,
+  "description": "Tucked away in the secluded Arroyo Canyon enclave of Bankers Hill, Zen is an understatement of this home. 2871 Brant Street is a truly rare San Diego offering where Mid-Century Modern design, sweeping Bay\u00a0 & partial ocean views and a resort-inspired outdoor living come together in an unforgettable private retreat.",
+  "features": [
+   "Private pool",
+   "Heating: Central",
+   "Cooling: Central Air",
+   "2 Attached Garage spaces",
+   "Garage",
+   "Top school rating 7/10 nearby"
+  ],
+  "daysOnMarket": 15,
+  "taxRateOverride": 0.011699999999999999,
+  "insuranceAnnualOverride": 8280,
+  "zillowUrl": "https://www.zillow.com/homedetails/2871-Brant-St-San-Diego-CA-92103/16972225_zpid/"
+ },
+ {
+  "id": "san-diego-16912975",
+  "city": "san-diego",
+  "tier": "dream",
+  "title": "2402 Alto Cerro Cir",
+  "neighborhood": "Pacific Beach",
+  "price": 3695000,
+  "forSale": true,
+  "beds": 3,
+  "baths": 4,
+  "sqft": 3613,
+  "lotSqft": 10018.8,
+  "yearBuilt": 1975,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "2 Garage spaces",
+  "categories": [
+   "pools",
+   "backyard"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/4b070c13e436671edcd4bbfd1ceadda3-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/0f71af2d3dccfc7c8162d32bad578d06-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/819928d16a25e5f47045b4f28a1003b0-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/3c641b889bdbc16f772356e58844a74e-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/f51eea8331d5bbf667d60d6b4c1fcd13-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 1994,
+    "price": 405000
+   },
+   {
+    "year": 2019,
+    "price": 1505000
+   },
+   {
+    "year": 2022,
+    "price": 3499999
+   },
+   {
+    "year": 2026,
+    "price": 3695000
+   }
+  ],
+  "rentEstimate": 18475,
+  "description": "Rarely do views, architecture, flat land & privacy come together at this level.  2402 Alto Cerro is a front-row seat to San Diego\u2019s coastline. Set on an elevated, flat 10,000 sqft lot, the property captures the \u201cHoly Trinity\u201d of views\u2014the Pacific Ocean, Mission Bay & Mexico. This exceptional combination of sweeping vistas & a tranquil outdoor oasis sets this residence apart.",
+  "features": [
+   "Private pool",
+   "Heating: Fireplace, Forced Air Unit",
+   "Cooling: Central Forced Air",
+   "2 Garage spaces",
+   "Garage",
+   "Top school rating 10/10 nearby"
+  ],
+  "taxRateOverride": 0.011699999999999999,
+  "insuranceAnnualOverride": 13302,
+  "zillowUrl": "https://www.zillow.com/homedetails/2402-Alto-Cerro-Cir-San-Diego-CA-92109/16912975_zpid/"
+ },
+ {
+  "id": "san-diego-16839627",
+  "city": "san-diego",
+  "tier": "dream",
+  "title": "2560 Caminito La Paz",
+  "neighborhood": "La Jolla",
+  "price": 2995000,
+  "forSale": true,
+  "beds": 4,
+  "baths": 4,
+  "sqft": 2465,
+  "lotSqft": 10599,
+  "yearBuilt": 1976,
+  "hoaMonthly": 242,
+  "pool": true,
+  "parking": "2 Garage spaces",
+  "categories": [
+   "pools",
+   "backyard"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/a8141e68d4c2b832bbaf96f07d9b7ac4-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/15f45fad02acb3a491721e660d2dfb35-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/5224023b1d23bc94a2b7c55369736f8f-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/a231fe6237794e30be5c9fec6a48c61c-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/39e227a0f56d210297fa9a22e23af142-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 1993,
+    "price": 304000
+   },
+   {
+    "year": 2021,
+    "price": 1955000
+   },
+   {
+    "year": 2026,
+    "price": 2995000
+   }
+  ],
+  "rentEstimate": 7991,
+  "description": "Beautifully refreshed, turnkey home in highly sought-after Hidden Valley Estates! Situated on a quiet cul-de-sac, this spacious single-level residence offers 4 bedrooms, 3.5 baths and approximately 2,465 square feet of living space on an expansive lot .",
+  "features": [
+   "Private pool",
+   "Heating: Forced Air Unit",
+   "Cooling: Central Forced Air",
+   "2 Garage spaces",
+   "Garage",
+   "Top school rating 10/10 nearby",
+   "HOA $242 monthly"
+  ],
+  "taxRateOverride": 0.011699999999999999,
+  "insuranceAnnualOverride": 10782,
+  "zillowUrl": "https://www.zillow.com/homedetails/2560-Caminito-La-Paz-La-Jolla-CA-92037/16839627_zpid/"
+ },
+ {
+  "id": "san-diego-16839110",
+  "city": "san-diego",
+  "tier": "absurd",
+  "title": "1900 Spindrift Dr",
+  "neighborhood": "La Jolla",
+  "price": 87500000,
+  "forSale": true,
+  "beds": 10,
+  "baths": 17,
+  "sqft": 12981,
+  "lotSqft": 35750,
+  "yearBuilt": 2015,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "3 Garage spaces",
+  "categories": [
+   "pools",
+   "mansions"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/a4c121f84989f304bc5d34efa30df188-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/dbe817d53ea22f2aa2561862c9ea0171-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/b9ee67799f2848c6a2ed1a9577d67311-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/236dba42adb81078f7fe5454c7c377dd-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/e3bb1647e53e4899b22ef649aeeebef6-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2001,
+    "price": 8000000
+   },
+   {
+    "year": 2009,
+    "price": 18150000
+   },
+   {
+    "year": 2024,
+    "price": 108000000
+   },
+   {
+    "year": 2026,
+    "price": 87500000
+   }
+  ],
+  "rentEstimate": 8817,
+  "description": "The Sand Castle stands as an unequivocal one-of-one \u2014 an irreplaceable waterfront legacy in La Jolla, a property whose scale and seafront relationship can never be re-created. More than a residence, it is a singular chapter of the Pacific Coast: a masterpiece where privacy, provenance, and prestige converge.",
+  "features": [
+   "Private pool",
+   "Heating: Fireplace, Forced Air Unit",
+   "Cooling: Central Forced Air",
+   "3 Garage spaces",
+   "Garage",
+   "Top school rating 10/10 nearby"
+  ],
+  "daysOnMarket": 89,
+  "taxRateOverride": 0.011699999999999999,
+  "insuranceAnnualOverride": 315000,
+  "zillowUrl": "https://www.zillow.com/homedetails/1900-Spindrift-Dr-La-Jolla-CA-92037/16839110_zpid/"
+ },
+ {
+  "id": "san-diego-67711341",
+  "city": "san-diego",
+  "tier": "absurd",
+  "title": "16401 Calle Feliz",
+  "neighborhood": "Rancho Santa Fe",
+  "price": 84950000,
+  "forSale": true,
+  "beds": 26,
+  "baths": 22,
+  "sqft": 15000,
+  "lotSqft": 3354120,
+  "yearBuilt": 2008,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "9 Attached Garage spaces",
+  "categories": [
+   "pools",
+   "mansions"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/261007ddd19fc25dd966bff4db517497-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/8363313fddfdd66b1399e2416b50c718-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/e469eee0f235a207d807478bf49400d9-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/bbf88e133fece395d1ead6ce7f9f5eff-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/f4a33c64cc31149248f95d88d07cf7d2-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2022,
+    "price": 98500000
+   },
+   {
+    "year": 2023,
+    "price": 98500000
+   },
+   {
+    "year": 2024,
+    "price": 100000000
+   },
+   {
+    "year": 2026,
+    "price": 84950000
+   }
+  ],
+  "rentEstimate": 424750,
+  "description": "Willow Creek Estate, known as the \u201cWellington of the West,\u201d is a truly unparalleled 77-acre Covenant estate that seamlessly blends the tranquility of the countryside with the vibrant allure of coastal living. Nestled just five miles from the ocean and the bustling beach towns of San Diego, this private sanctuary offers both serenity and accessibility, providing a rare living experience.",
+  "features": [
+   "Private pool",
+   "Cooling: Zoned",
+   "9 Attached Garage spaces",
+   "Garage",
+   "Top school rating 10/10 nearby",
+   "HOA Has HOA fee"
+  ],
+  "daysOnMarket": 454,
+  "taxRateOverride": 0.011699999999999999,
+  "insuranceAnnualOverride": 305820,
+  "zillowUrl": "https://www.zillow.com/homedetails/16401-Calle-Feliz-Rancho-Santa-Fe-CA-92067/67711341_zpid/"
+ },
+ {
+  "id": "san-diego-16775794",
+  "city": "san-diego",
+  "tier": "realistic",
+  "title": "3937 Caminito Del Mar Surf",
+  "neighborhood": "Carmel Valley",
+  "price": 1381800,
+  "forSale": false,
+  "beds": 3,
+  "baths": 3,
+  "sqft": 1624,
+  "yearBuilt": 1985,
+  "hoaMonthly": 480,
+  "pool": true,
+  "parking": "2 Garage spaces",
+  "categories": [
+   "pools",
+   "offmarket",
+   "city"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/278478a43b7a537310164dbc2feebc71-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/e2e748a42fef233f594541d4bc1c8518-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/da7163d7f8ba5da594b2bf63bef64d0a-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/9cbfe5dd17e3fa0021b4eed7f581f5c9-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/f698a95bb1abca69f910ba48e701a2f5-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2022,
+    "price": 1185000
+   },
+   {
+    "year": 2023,
+    "price": 4900
+   },
+   {
+    "year": 2026,
+    "price": 1381800
+   }
+  ],
+  "rentEstimate": 4654,
+  "description": "The jewel of Coral Cove! This light-filled end unit in the sought-after Coral Cove community has been extensively upgraded and shows beautifully. The spacious living room features rich laminate floors, vaulted ceiling, cozy fireplace, and adjoining dining area.",
+  "features": [
+   "Private pool",
+   "Heating: Forced Air Unit",
+   "Cooling: Central Forced Air",
+   "2 Garage spaces",
+   "Garage",
+   "Top school rating 10/10 nearby",
+   "HOA $480 monthly"
+  ],
+  "daysOnMarket": 1,
+  "taxRateOverride": 0.011699999999999999,
+  "zillowUrl": "https://www.zillow.com/homedetails/3937-Caminito-Del-Mar-Surf-San-Diego-CA-92130/16775794_zpid/"
+ },
+ {
+  "id": "san-diego-16780432",
+  "city": "san-diego",
+  "tier": "realistic",
+  "title": "11235 Avenida Del Gato",
+  "neighborhood": "Mira Mesa",
+  "price": 1001500,
+  "forSale": false,
+  "beds": 4,
+  "baths": 2,
+  "sqft": 1627,
+  "lotSqft": 5300,
+  "yearBuilt": 1972,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "2 Garage spaces",
+  "categories": [
+   "pools",
+   "offmarket",
+   "value"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/2f730cc442c8e93b57324431794d7a18-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/1eb5b55366b5a9465094426c074854d3-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/2d8065e11186f4ffd17e478fd6914e3d-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/397b9dc3596d125b381d289de69c3e13-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/9a81538d7d454b17929036a91be59a73-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2026,
+    "price": 1001500
+   }
+  ],
+  "rentEstimate": 4678,
+  "description": "First time ever on the market, this 4-bedroom, 2-bath Mira Mesa home is a fantastic opportunity to get into a great neighborhood! Move right in, continue to update over time, or reimagine the home to suit your vision. Over 1,600 square feet of living space on a 5,300-square-foot lot. Single-story, with attached 2-car garage, and hardwood floors throughout the living room and hallway.",
+  "features": [
+   "Private pool",
+   "Heating: Forced Air Unit",
+   "Cooling: N/K",
+   "2 Garage spaces",
+   "Garage",
+   "Top school rating 9/10 nearby"
+  ],
+  "daysOnMarket": 1,
+  "taxRateOverride": 0.011699999999999999,
+  "zillowUrl": "https://www.zillow.com/homedetails/11235-Avenida-Del-Gato-San-Diego-CA-92126/16780432_zpid/"
+ },
+ {
+  "id": "san-diego-16820730",
+  "city": "san-diego",
+  "tier": "realistic",
+  "title": "11665 Negley Dr",
+  "neighborhood": "Scripps Ranch",
+  "price": 1182500,
+  "forSale": false,
+  "beds": 3,
+  "baths": 3,
+  "sqft": 1942,
+  "lotSqft": 6098.4,
+  "yearBuilt": 1974,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "2 Garage spaces",
+  "categories": [
+   "pools",
+   "offmarket",
+   "value",
+   "backyard"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/3fc2ffffd161017063c254dcc72ff90b-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/1ad2e3836ee55331edd071ad6c250ab9-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/436f5b57a68a7815d45ef6b466acd8e0-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/a42dd32b49ec0aa28190c4ab95f04687-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/96e3f78950ed7b7d9f0e85ec33777c8c-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2020,
+    "price": 3500
+   },
+   {
+    "year": 2026,
+    "price": 1182500
+   }
+  ],
+  "rentEstimate": 5125,
+  "description": "Welcome to this inviting Scripps Ranch home featuring three bedrooms, three full bathrooms, a west-facing front door, and a versatile downstairs room that can be used as a home office, guest room, or optional fourth bedroom. The home also offers a two-car garage and a spacious backyard ideal for entertaining, relaxing, and enjoying San Diego\u2019s year-round weather.",
+  "features": [
+   "Private pool",
+   "Heating: Fireplace",
+   "Cooling: Attic Fan",
+   "2 Garage spaces",
+   "Garage",
+   "Top school rating 10/10 nearby"
+  ],
+  "daysOnMarket": 1,
+  "taxRateOverride": 0.011699999999999999,
+  "zillowUrl": "https://www.zillow.com/homedetails/11665-Negley-Dr-San-Diego-CA-92131/16820730_zpid/"
+ },
+ {
+  "id": "san-diego-16821401",
+  "city": "san-diego",
+  "tier": "realistic",
+  "title": "11080 Briarcliff Dr",
+  "neighborhood": "Scripps Ranch",
+  "price": 1610400,
+  "forSale": false,
+  "beds": 4,
+  "baths": 3,
+  "sqft": 2543,
+  "lotSqft": 7405.2,
+  "yearBuilt": 1980,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "2 Garage spaces",
+  "categories": [
+   "pools",
+   "offmarket",
+   "value",
+   "backyard"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/427b778f549325154e80156cb4838bbb-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/822639f0680d5169f52ca0ec01bfaaaa-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/0c1651a48038e6c2e6e7679f58e642f4-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/3022c32cb971b8e8dc997f1d54904f8e-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/e13e41643cdd09120bfbc0591338a283-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 1994,
+    "price": 275000
+   },
+   {
+    "year": 2026,
+    "price": 1610400
+   }
+  ],
+  "rentEstimate": 6398,
+  "description": "Beautifully renovated and extensively upgraded, this exceptional home blends timeless style, modern efficiency, and resort-style outdoor living. The highly desirable floor plan features an optional bedroom on the main level, ideal for guests, a home office, or multi-generational living.",
+  "features": [
+   "Private pool",
+   "Heating: Fireplace, Forced Air Unit",
+   "Cooling: N/K",
+   "2 Garage spaces",
+   "Garage",
+   "Top school rating 10/10 nearby"
+  ],
+  "daysOnMarket": 1,
+  "taxRateOverride": 0.011699999999999999,
+  "zillowUrl": "https://www.zillow.com/homedetails/11080-Briarcliff-Dr-San-Diego-CA-92131/16821401_zpid/"
+ },
+ {
+  "id": "austin-29448088",
+  "city": "austin",
+  "tier": "realistic",
+  "title": "902 POINT RUN DR",
+  "neighborhood": "Wells Point",
+  "price": 385000,
+  "forSale": true,
+  "beds": 3,
+  "baths": 3,
+  "sqft": 2210,
+  "lotSqft": 7797.24,
+  "yearBuilt": 1999,
+  "hoaMonthly": 52,
+  "pool": true,
+  "parking": "2 Garage spaces",
+  "categories": [
+   "pools",
+   "value",
+   "backyard"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/0e49bb3ea76b3ec72b7e279af7215614-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/fda1257de4700bb9732c51b723fe1e11-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/76a9d1b7cd231b113a65e36037e1d163-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/7a41df5b8b1a2fe9c8ae59231f9d5a1b-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/088195a7196798945e2724076ba5ac3b-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2016,
+    "price": 234900
+   },
+   {
+    "year": 2026,
+    "price": 385000
+   }
+  ],
+  "rentEstimate": 2286,
+  "description": "High ceilings and an abundance of natural light welcome you into this meticulously maintained home. Gleaming hardwoods, laminate wood flooring, ceramic tile, and decorator colors create a warm, inviting atmosphere throughout. Spacious kitchen features granite tile countertops, a tile backsplash, and stainless-steel appliances, with both formal dining and a breakfast area.",
+  "features": [
+   "Private pool",
+   "Heating: Central, Electric",
+   "Cooling: Ceiling Fan(s), Central Air",
+   "2 Garage spaces",
+   "Garage",
+   "HOA $52 monthly"
+  ],
+  "daysOnMarket": 5,
+  "taxRateOverride": 0.0146,
+  "insuranceAnnualOverride": 1386,
+  "zillowUrl": "https://www.zillow.com/homedetails/902-Point-Run-Dr-Pflugerville-TX-78660/29448088_zpid/"
+ },
+ {
+  "id": "austin-464181906",
+  "city": "austin",
+  "tier": "realistic",
+  "title": "4907 Watusi Bnd",
+  "neighborhood": "Steiner Ranch",
+  "price": 689000,
+  "forSale": true,
+  "beds": 4,
+  "baths": 3,
+  "sqft": 2586,
+  "lotSqft": 24668,
+  "yearBuilt": 2021,
+  "hoaMonthly": 101,
+  "pool": true,
+  "parking": "2 Attached Garage spaces",
+  "categories": [
+   "pools",
+   "new",
+   "value"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/7afa55b7346860f78229de7b8aeaaca4-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/12bd3569fae404b80be259946a552a11-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/68b626e3ce029e92bdf08e274b4dcf1e-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/0c0296dd43996c51b120247d1438d919-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/61c056d0237d64119f430f73bd65b18f-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2026,
+    "price": 689000
+   }
+  ],
+  "rentEstimate": 3445,
+  "description": "Beautiful 2021 custom home in The Retreat at Steiner Ranch, set on more than half an acre and backing to peaceful preserve land. Thoughtfully designed with elevated finishes, abundant natural light and more than $20K in seller upgrades, this home offers a rare combination of newer construction, privacy and the Steiner Ranch lifestyle.",
+  "features": [
+   "Private pool",
+   "Heating: Central, Electric, Forced Air",
+   "Cooling: Ceiling Fan(s), Central Air, Electric",
+   "2 Attached Garage spaces",
+   "Garage",
+   "Top school rating 10/10 nearby",
+   "HOA $603 semi-annually"
+  ],
+  "daysOnMarket": 61,
+  "taxRateOverride": 0.0146,
+  "insuranceAnnualOverride": 2480.4,
+  "zillowUrl": "https://www.zillow.com/homedetails/4907-Watusi-Bnd-Austin-TX-78732/464181906_zpid/"
+ },
+ {
+  "id": "austin-29478686",
+  "city": "austin",
+  "tier": "realistic",
+  "title": "208 Lessin Ln",
+  "neighborhood": "Dawson",
+  "price": 875000,
+  "forSale": true,
+  "beds": 4,
+  "baths": 3,
+  "sqft": 2340,
+  "lotSqft": 8454.996,
+  "yearBuilt": 2006,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "Gravel",
+  "categories": [
+   "pools",
+   "backyard"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/6ad328fff77d3b9af7912c9235c38c84-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/a653e4948407414bbcf907979d9f8ad4-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/47ac56178a36ad6526c476b7f86ce138-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/f16f13468f1a0c0208c13a11de2eb589-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/7f183ddefabc264fd1a508c276db7e3c-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2015,
+    "price": 675000
+   },
+   {
+    "year": 2016,
+    "price": 2550
+   },
+   {
+    "year": 2021,
+    "price": 3275
+   },
+   {
+    "year": 2026,
+    "price": 875000
+   }
+  ],
+  "rentEstimate": 4283,
+  "description": "STEEL-FRAME MODERN + 2-BED GUEST HOUSE | ST. ELMO DISTRICT | WALLS OF GLASS | 3 MILES TO DOWNTOWN | One property, two fully independent homes in the heart of South Austin's St. Elmo district. The main residence is a steel-framed modern unlike anything else in 78704, with an inverted layout that puts everyday living where the light is: the second story is wrapped in floor-to-ceiling glass, so the\u2026",
+  "features": [
+   "Private pool",
+   "Heating: Central",
+   "Cooling: Central Air",
+   "Gravel"
+  ],
+  "daysOnMarket": 30,
+  "taxRateOverride": 0.0146,
+  "insuranceAnnualOverride": 3150,
+  "zillowUrl": "https://www.zillow.com/homedetails/208-Lessin-Ln-Austin-TX-78704/29478686_zpid/"
+ },
+ {
+  "id": "austin-70326813",
+  "city": "austin",
+  "tier": "realistic",
+  "title": "6113 Perlita Dr",
+  "neighborhood": "Rogers Hill",
+  "price": 360000,
+  "forSale": true,
+  "beds": 4,
+  "baths": 3,
+  "sqft": 1486,
+  "lotSqft": 4604.292,
+  "yearBuilt": 2006,
+  "hoaMonthly": 20,
+  "pool": true,
+  "parking": "2 Covered Parking spaces",
+  "categories": [
+   "pools",
+   "value"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/4adeaaf670d18181fe2b4f12da813f71-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/83b93b9036e6fd0873ad95006a06f193-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/2720d2574b29b333d8bdd0803010506e-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/75b05eacf91ba6007827d0dab3a7c1bf-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/c6f713fb12b6b84c9ffc8257c54ad0a2-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2014,
+    "price": 1400
+   },
+   {
+    "year": 2015,
+    "price": 1400
+   },
+   {
+    "year": 2016,
+    "price": 1500
+   },
+   {
+    "year": 2026,
+    "price": 360000
+   }
+  ],
+  "rentEstimate": 1800,
+  "description": "THIS PROPERTY QUALIFIES FOR A $5000 GRANT THAT IS NOT BUYER INCOME DEPENDENT!   Experience modern East Austin living at 6113 Perlita Drive, a beautifully renovated home in the architecturally distinctive Agave community.",
+  "features": [
+   "Private pool",
+   "Heating: Central",
+   "Cooling: Central Air",
+   "2 Covered Parking spaces",
+   "HOA $60 quarterly"
+  ],
+  "daysOnMarket": 20,
+  "taxRateOverride": 0.0146,
+  "insuranceAnnualOverride": 1296,
+  "zillowUrl": "https://www.zillow.com/homedetails/6113-Perlita-Dr-Austin-TX-78724/70326813_zpid/"
+ },
+ {
+  "id": "austin-125915889",
+  "city": "austin",
+  "tier": "dream",
+  "title": "1010 Canyon Edge Dr",
+  "neighborhood": "Austin",
+  "price": 1199000,
+  "forSale": true,
+  "beds": 4,
+  "baths": 4,
+  "sqft": 3565,
+  "lotSqft": 13068,
+  "yearBuilt": 2014,
+  "hoaMonthly": 29,
+  "pool": true,
+  "parking": "3 Attached Garage spaces",
+  "categories": [
+   "pools"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/6d288551cdc6a70d0734cb32af108d73-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/f81a21c7ff9847686b34e2f663448947-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/761af202bc55cf1a08c7650d3a7c31d6-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/0e58913c1b4216ca2bd1f923cfd2d3a1-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/7e30cd9b8ee25192d1bb4c91e674b9bc-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2016,
+    "price": 769000
+   },
+   {
+    "year": 2026,
+    "price": 1199000
+   }
+  ],
+  "rentEstimate": 5995,
+  "description": "Tucked inside a coveted community with exclusive lake access, a private park, and a boat launch right on Lake Austin, this stunning home delivers the lifestyle you've been looking for without sacrificing convenience. Downtown Austin is just 20 minutes away, and you're zoned to the highly acclaimed Eanes ISD.",
+  "features": [
+   "Private pool",
+   "Heating: Central, Electric",
+   "Cooling: Central Air",
+   "3 Attached Garage spaces",
+   "Garage",
+   "Top school rating 10/10 nearby",
+   "HOA $350 annually"
+  ],
+  "daysOnMarket": 6,
+  "taxRateOverride": 0.0146,
+  "insuranceAnnualOverride": 4316.4,
+  "zillowUrl": "https://www.zillow.com/homedetails/1010-Canyon-Edge-Dr-Austin-TX-78733/125915889_zpid/"
+ },
+ {
+  "id": "austin-111970696",
+  "city": "austin",
+  "tier": "dream",
+  "title": "13805 Skyline Dr",
+  "neighborhood": "Four Points",
+  "price": 1350000,
+  "forSale": true,
+  "beds": 5,
+  "baths": 5,
+  "sqft": 3205,
+  "lotSqft": 12663,
+  "yearBuilt": 1986,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "Detached, Driveway",
+  "categories": [
+   "pools"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/0e55c76b76b6ae5358eb202b6647dde9-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/7b7e0c8df7317ec1271c4cb4ace0b160-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/d2675656afcd66a5d67c1b663fc9f3ee-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/6c083b3f73e05e93c8d1ebe81995de53-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/791a2ce16e9b5fd3e61efb7da9ca1de1-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2017,
+    "price": 699000
+   },
+   {
+    "year": 2022,
+    "price": 1530000
+   },
+   {
+    "year": 2026,
+    "price": 1350000
+   }
+  ],
+  "rentEstimate": 6750,
+  "description": "Welcome to 13805 Skyline Drive, an exceptional Lake Travis retreat where floor-to-ceiling windows frame sweeping deep-water lake views and the dramatic beauty of the Hill Country. This private estate captures Austin\u2019s legendary sunsets from the living spaces, gourmet kitchen, dining area, decks, sparkling pool and numerous bedrooms.",
+  "features": [
+   "Private pool",
+   "Heating: Central",
+   "Cooling: Ceiling Fan(s), Central Air",
+   "Detached, Driveway",
+   "Top school rating 8/10 nearby"
+  ],
+  "daysOnMarket": 5,
+  "taxRateOverride": 0.0146,
+  "insuranceAnnualOverride": 4860,
+  "zillowUrl": "https://www.zillow.com/homedetails/13805-Skyline-Dr-Austin-TX-78732/111970696_zpid/"
+ },
+ {
+  "id": "austin-29340485",
+  "city": "austin",
+  "tier": "dream",
+  "title": "2900 Meandering River Ct",
+  "neighborhood": "Austin",
+  "price": 2995000,
+  "forSale": true,
+  "beds": 5,
+  "baths": 6,
+  "sqft": 4888,
+  "lotSqft": 16379,
+  "yearBuilt": 1999,
+  "hoaMonthly": 167,
+  "pool": true,
+  "parking": "2 Attached Garage spaces",
+  "categories": [
+   "pools"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/c5b8119a1f004a1e19b5a9335cc79e3f-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/b912c5d14b22c8d5821d0b2b5fba0ce1-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/9b395c611e992c9e1f1473b89f63d79a-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/bcb2e387b088f3e985a65c4ec54c0f7d-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/7e407229062799e8ea02d6af2724cc1b-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2023,
+    "price": 13500
+   },
+   {
+    "year": 2024,
+    "price": 3495000
+   },
+   {
+    "year": 2025,
+    "price": 15000
+   },
+   {
+    "year": 2026,
+    "price": 2995000
+   }
+  ],
+  "rentEstimate": 14975,
+  "description": "Located in the prestigious gated community of West Rim Estates in Westlake, 2900 Meandering River Court is a fresh, move-in ready single-family home that seamlessly blends luxury with comfort. This residence boasts five bedrooms and four full plus two half bathrooms, providing ample space for family and guests.",
+  "features": [
+   "Private pool",
+   "Heating: Central, Natural Gas",
+   "Cooling: Central Air",
+   "2 Attached Garage spaces",
+   "Garage",
+   "Top school rating 10/10 nearby",
+   "HOA $2,000 annually"
+  ],
+  "daysOnMarket": 4,
+  "taxRateOverride": 0.0146,
+  "insuranceAnnualOverride": 10782,
+  "zillowUrl": "https://www.zillow.com/homedetails/2900-Meandering-River-Ct-Austin-TX-78746/29340485_zpid/"
+ },
+ {
+  "id": "austin-64441215",
+  "city": "austin",
+  "tier": "absurd",
+  "title": "4625 Rockcliff Rd",
+  "neighborhood": "Austin",
+  "price": 19000000,
+  "forSale": true,
+  "beds": 4,
+  "baths": 6,
+  "sqft": 5275,
+  "lotSqft": 480946,
+  "yearBuilt": 2001,
+  "hoaMonthly": 0,
+  "pool": true,
+  "parking": "3 Garage spaces",
+  "categories": [
+   "pools",
+   "mansions"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/70027720f236238eac498f3ba6d3a741-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/9a9d1e3289550ad4b851f7c9030f5f67-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/acb5631c9966e155b005abbd1cbc1447-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/bc6622c3de0bfe8ecec36c28ca7f8be8-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/9bbc08e4dbef1cd2accf521c0aed6c8f-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2026,
+    "price": 19000000
+   }
+  ],
+  "rentEstimate": 95000,
+  "description": "Set on 11 acres with several hundred feet of waterfront on a quiet lagoon off Lake Austin, this estate offers a rare level of seclusion rarely found in Westlake. A long, winding drive crosses a stone bridge over a gentle creek before arriving at the home, creating the feeling of a hidden retreat completely removed from the city.",
+  "features": [
+   "Private pool",
+   "Heating: Central",
+   "Cooling: Ceiling Fan(s), Central Air",
+   "3 Garage spaces",
+   "Garage",
+   "Top school rating 10/10 nearby"
+  ],
+  "daysOnMarket": 105,
+  "taxRateOverride": 0.0146,
+  "insuranceAnnualOverride": 68400,
+  "zillowUrl": "https://www.zillow.com/homedetails/4625-Rockcliff-Rd-Austin-TX-78746/64441215_zpid/"
+ },
+ {
+  "id": "austin-83816995",
+  "city": "austin",
+  "tier": "absurd",
+  "title": "805 Congress Ave",
+  "neighborhood": "Downtown",
+  "price": 18999000,
+  "forSale": true,
+  "beds": 3,
+  "baths": 8,
+  "sqft": 15600,
+  "lotSqft": 3920.4,
+  "yearBuilt": 1871,
+  "hoaMonthly": 0,
+  "pool": false,
+  "parking": "1 Garage space",
+  "categories": [
+   "classic",
+   "mansions"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/d298abe245ea58946a69a3b205ac2c06-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/b4154a33504e80763c5d0feb420b01f4-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/53464199d76280850762cbc062693cd2-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/a43e1bd98fb66a8f4e3e549fc2213653-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/876456b5cd4a4f7d3abda8d5e35c2d44-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2022,
+    "price": 18000000
+   },
+   {
+    "year": 2024,
+    "price": 18000000
+   },
+   {
+    "year": 2026,
+    "price": 18999000
+   }
+  ],
+  "rentEstimate": 94995,
+  "description": "Located at 805 Congress Avenue, this historic downtown Austin landmark is far more than a residence \u2014 it is a rare architectural masterpiece offering history, character, and exceptional versatility. Spanning four stories and more than 15,600 square feet across the upper three levels, the property blends timeless elegance with modern luxury in one of Austin's most coveted locations.",
+  "features": [
+   "Heating: Central, Electric",
+   "Cooling: Central Air, Electric",
+   "1 Garage space",
+   "Garage",
+   "Top school rating 10/10 nearby"
+  ],
+  "daysOnMarket": 103,
+  "taxRateOverride": 0.0146,
+  "insuranceAnnualOverride": 68396.4,
+  "zillowUrl": "https://www.zillow.com/homedetails/805-Congress-Ave-Austin-TX-78701/83816995_zpid/"
+ },
+ {
+  "id": "chicago-89951661",
+  "city": "chicago",
+  "tier": "realistic",
+  "title": "2535 W Flournoy St #3",
+  "neighborhood": "Tri-Taylor",
+  "price": 325000,
+  "forSale": true,
+  "beds": 2,
+  "baths": 2,
+  "sqft": 1200,
+  "yearBuilt": 2006,
+  "hoaMonthly": 274,
+  "pool": false,
+  "parking": "1 Parking space",
+  "categories": [
+   "city"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/91408fec70970250592c8832bc28190e-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/fb2c4736b4232a72c5555f152175fb2b-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/ddf23dcd4d9cd6709c62bbebfea2d213-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/b05f622a64858ffc527b8972637a4604-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/dab5760a7d552ce855e51fd89a80aad2-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2007,
+    "price": 283000
+   },
+   {
+    "year": 2021,
+    "price": 275000
+   },
+   {
+    "year": 2026,
+    "price": 325000
+   }
+  ],
+  "rentEstimate": 3307,
+  "description": "Welcome home to this bright and spacious top-floor 2-bedroom, 2-bath condo tucked away on a quiet, tree-lined cul-de-sac in the Tri-Taylor neighborhood. Soaring 11-foot ceilings, abundant windows, and hardwood floors throughout create an airy, open feel filled with natural light. The open-concept living, dining, and kitchen area is perfect for everyday living and entertaining.",
+  "features": [
+   "Heating: Natural Gas, Forced Air",
+   "Cooling: Central Air",
+   "1 Parking space",
+   "HOA $274 monthly"
+  ],
+  "daysOnMarket": 5,
+  "taxRateOverride": 0.0199,
+  "insuranceAnnualOverride": 1170,
+  "zillowUrl": "https://www.zillow.com/homedetails/2535-W-Flournoy-St-3-Chicago-IL-60622/89951661_zpid/"
+ },
+ {
+  "id": "chicago-444940085",
+  "city": "chicago",
+  "tier": "realistic",
+  "title": "1966 W Diversey Ave Unit 2",
+  "neighborhood": "Lake View",
+  "price": 424900,
+  "forSale": true,
+  "beds": 2,
+  "baths": 2,
+  "sqft": 1200,
+  "yearBuilt": 2000,
+  "hoaMonthly": 175,
+  "pool": false,
+  "parking": "2 Parking spaces",
+  "categories": [
+   "city"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/5abd3c0ca43a38bd0fe4112c7993568b-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/7e296d6a41e49ce12478f874ea95965d-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/febff854c4b156e1f9ed78b2e41bef47-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/e7e979d6c4e23e0e07be9be605c5b571-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/9a7bc53d3f550a6a66953e36d15dd993-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2026,
+    "price": 424900
+   }
+  ],
+  "rentEstimate": 3551,
+  "description": "",
+  "features": [
+   "Heating: Natural Gas, Forced Air",
+   "Cooling: Central Air",
+   "2 Parking spaces",
+   "HOA $175 monthly"
+  ],
+  "daysOnMarket": 3,
+  "taxRateOverride": 0.0199,
+  "insuranceAnnualOverride": 1529.6399999999999,
+  "zillowUrl": "https://www.zillow.com/homedetails/1966-W-Diversey-Ave-UNIT-2-Chicago-IL-60614/444940085_zpid/"
+ },
+ {
+  "id": "chicago-3698876",
+  "city": "chicago",
+  "tier": "realistic",
+  "title": "5314 N Glenwood Ave APT 1W",
+  "neighborhood": "Andersonville",
+  "price": 280000,
+  "forSale": true,
+  "beds": 1,
+  "baths": 1,
+  "sqft": 700,
+  "yearBuilt": 1926,
+  "hoaMonthly": 426,
+  "pool": false,
+  "parking": "0 spaces",
+  "categories": [
+   "classic",
+   "city"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/b3563cc0b9f4d8e83d5cbaab6621d3c6-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/57fa40ef1a6741d33b5145175aac0ce8-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/64ce7413119c8cf94e4a8abd473c6041-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/d543fbfcd796956391674efe7d6c8c6e-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/f6b6f9db1d3aec566ea5c774d54e94f2-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2013,
+    "price": 165000
+   },
+   {
+    "year": 2020,
+    "price": 182000
+   },
+   {
+    "year": 2024,
+    "price": 2000
+   },
+   {
+    "year": 2026,
+    "price": 280000
+   }
+  ],
+  "rentEstimate": 1836,
+  "description": "Amazing, Stunning, Chicago Andersonville Condo!! Rare to find!! The Perfect location! Move right into this beautiful, bright condo! Well maintained vintage building, investor-friendly, pets allowed, low assessments, and situated in a gorgeous courtyard building! 1 Bedroom, 1 Bathroom! Great features include; bright and spacious, hardwood floors, a great layout! Beautiful spacious, updated kitchen!",
+  "features": [
+   "Heating: Steam, Radiant",
+   "Cooling: Window Unit(s)",
+   "0 spaces",
+   "HOA $426 monthly"
+  ],
+  "daysOnMarket": 6,
+  "taxRateOverride": 0.0199,
+  "insuranceAnnualOverride": 1008,
+  "zillowUrl": "https://www.zillow.com/homedetails/5314-N-Glenwood-Ave-APT-1W-Chicago-IL-60640/3698876_zpid/"
+ },
+ {
+  "id": "chicago-65566424",
+  "city": "chicago",
+  "tier": "realistic",
+  "title": "635 N Dearborn St APT 902",
+  "neighborhood": "River North",
+  "price": 450000,
+  "forSale": true,
+  "beds": 2,
+  "baths": 2,
+  "sqft": 1250,
+  "yearBuilt": 2003,
+  "hoaMonthly": 944,
+  "pool": false,
+  "parking": "1 Attached Garage space",
+  "categories": [
+   "city"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/2bc32da829147eaba54b2be40c2f6363-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/4d1eb59fa73483240980324c4d2715a5-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/94b0f51f1a972434398c745a35279d91-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/4c76de1197f1d93f7e316bc6536b815f-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/5b74357b6e41e720c777fd02f0ed4a88-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2020,
+    "price": 3000
+   },
+   {
+    "year": 2023,
+    "price": 3500
+   },
+   {
+    "year": 2024,
+    "price": 3500
+   },
+   {
+    "year": 2026,
+    "price": 450000
+   }
+  ],
+  "rentEstimate": 2250,
+  "description": "Welcome to this corner, southwest-facing condo at the Caravel! This bright and spacious home brings the best of city living indoors with floor-to-ceiling windows, a wraparound balcony, and beautiful southwestern views of the Chicago skyline.  The split-bedroom floor plan offers excellent functionality and privacy.",
+  "features": [
+   "Heating: Natural Gas, Forced Air",
+   "Cooling: Central Air",
+   "1 Attached Garage space",
+   "Garage",
+   "HOA $944 monthly"
+  ],
+  "taxRateOverride": 0.0199,
+  "insuranceAnnualOverride": 1620,
+  "zillowUrl": "https://www.zillow.com/homedetails/635-N-Dearborn-St-APT-902-Chicago-IL-60654/65566424_zpid/"
+ },
+ {
+  "id": "chicago-3720835",
+  "city": "chicago",
+  "tier": "dream",
+  "title": "2856 N Burling St APT 5",
+  "neighborhood": "Lake View",
+  "price": 975000,
+  "forSale": true,
+  "beds": 4,
+  "baths": 4,
+  "sqft": 2100,
+  "yearBuilt": 1978,
+  "hoaMonthly": 240,
+  "pool": false,
+  "parking": "1 Parking space",
+  "categories": [
+   "city"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/ba48b5e06cfe6394e8bb8d2b21ffe739-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/36d5f97c54a64a920130c3e0e595b432-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/bf401113a720bacc48905c3d781b4acd-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/e7fc8d18b24741d325888ea85c8f6b5f-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/a8b32da7d47ca6665bc313c91e514051-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 1997,
+    "price": 255000
+   },
+   {
+    "year": 2003,
+    "price": 465000
+   },
+   {
+    "year": 2026,
+    "price": 975000
+   }
+  ],
+  "rentEstimate": 4804,
+  "description": "Exceptional Four-Level Townhome in Prime East Lakeview. Welcome to this stunning four-level townhome in the heart of East Lakeview, offering 4 bedrooms, 4 full bathrooms, and approximately 2,100 square feet of beautifully designed living space.",
+  "features": [
+   "Heating: Natural Gas",
+   "Cooling: Central Air",
+   "1 Parking space",
+   "Top school rating 10/10 nearby",
+   "HOA $240 monthly"
+  ],
+  "daysOnMarket": 3,
+  "taxRateOverride": 0.0199,
+  "insuranceAnnualOverride": 3510,
+  "zillowUrl": "https://www.zillow.com/homedetails/2856-N-Burling-St-APT-5-Chicago-IL-60657/3720835_zpid/"
+ },
+ {
+  "id": "chicago-3986752",
+  "city": "chicago",
+  "tier": "dream",
+  "title": "5472 S Dorchester Ave",
+  "neighborhood": "Hyde Park",
+  "price": 799900,
+  "forSale": true,
+  "beds": 4,
+  "baths": 4,
+  "sqft": 2098,
+  "lotSqft": 1900,
+  "yearBuilt": 1994,
+  "hoaMonthly": 0,
+  "pool": false,
+  "parking": "1 Attached Garage space",
+  "categories": [],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/61e310e7f500f21c07146e1885811439-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/743821b9ec734f6dc0e698458e74130e-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/547cf5a6e5375847dee25c4694e546df-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/cb3fc97b0f82681150bade1809364d64-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/8f843c17e14a41c7b87885d6890327ba-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2023,
+    "price": 575000
+   },
+   {
+    "year": 2026,
+    "price": 799900
+   }
+  ],
+  "rentEstimate": 4000,
+  "description": "Wonderful Hyde Park location! You'll love the feel inside this tastefully appointed brick mid-century modern single family home with rare attached garage. Featuring 4 bedrooms and 3.5 baths on 3 levels, this sun splashed turn-key home with oversized windows is bright and airy all year round.",
+  "features": [
+   "Heating: Natural Gas, Forced Air",
+   "Cooling: Central Air",
+   "1 Attached Garage space",
+   "Garage",
+   "Top school rating 7/10 nearby"
+  ],
+  "taxRateOverride": 0.0199,
+  "insuranceAnnualOverride": 2879.64,
+  "zillowUrl": "https://www.zillow.com/homedetails/5472-S-Dorchester-Ave-Chicago-IL-60615/3986752_zpid/"
+ },
+ {
+  "id": "chicago-65561617",
+  "city": "chicago",
+  "tier": "dream",
+  "title": "1109 W Belmont Ave APT 4",
+  "neighborhood": "Lake View",
+  "price": 799000,
+  "forSale": true,
+  "beds": 3,
+  "baths": 2,
+  "sqft": 1600,
+  "yearBuilt": 2003,
+  "hoaMonthly": 299,
+  "pool": false,
+  "parking": "1 Attached Garage space",
+  "categories": [
+   "city"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/2d210b07396635c0c53ddb22b282f3b7-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/dafd207ead8bf390bc70f6bb6496ffcc-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/18781c4c531ec547c823ff5b8362bb9e-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/48a60454a13316122f72f1f73062a785-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/110709c7664f422881ef565d4cdb66c8-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2012,
+    "price": 445000
+   },
+   {
+    "year": 2015,
+    "price": 510000
+   },
+   {
+    "year": 2021,
+    "price": 600000
+   },
+   {
+    "year": 2026,
+    "price": 799000
+   }
+  ],
+  "rentEstimate": 3995,
+  "description": "Perched atop one of Chicago's most sought-after neighborhoods, this top-floor Lakeview penthouse delivers a rare combination of space, light, and private outdoor living that's simply unmatched.  Step inside to find hardwood floors throughout, crown molding, and a space bathed in natural light from skylights.",
+  "features": [
+   "Heating: Natural Gas",
+   "Cooling: Central Air",
+   "1 Attached Garage space",
+   "Garage",
+   "Top school rating 8/10 nearby",
+   "HOA $299 monthly"
+  ],
+  "daysOnMarket": 2,
+  "taxRateOverride": 0.0199,
+  "insuranceAnnualOverride": 2876.4,
+  "zillowUrl": "https://www.zillow.com/homedetails/1109-W-Belmont-Ave-APT-4-Chicago-IL-60657/65561617_zpid/"
+ },
+ {
+  "id": "chicago-2103549489",
+  "city": "chicago",
+  "tier": "absurd",
+  "title": "1355 N Astor St",
+  "neighborhood": "Gold Coast",
+  "price": 21000000,
+  "forSale": true,
+  "beds": 6,
+  "baths": 6,
+  "sqft": 25000,
+  "lotSqft": 12240,
+  "yearBuilt": 1914,
+  "hoaMonthly": 0,
+  "pool": false,
+  "parking": "2 Open Parking spaces",
+  "categories": [
+   "classic",
+   "mansions"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/caec4bd3cc6d6738a06ac0bbb06b8942-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/7147716376d290fd6a99c2076b882f1a-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/de53862e39a05084aab6b685e71f502c-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/d229243ad0430d75dadea825837d4f36-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/a625c9416407fdc59f3793a20ff62f34-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2015,
+    "price": 1563
+   },
+   {
+    "year": 2016,
+    "price": 3500
+   },
+   {
+    "year": 2024,
+    "price": 21000000
+   },
+   {
+    "year": 2026,
+    "price": 21000000
+   }
+  ],
+  "rentEstimate": 1975,
+  "description": "Presenting an unparalleled opportunity to acquire one of Chicago's most distinguished estates - an historic residence offering over 25,000 square feet of total living space, set on nearly one-third of an acre along the Gold Coast's prestigious Astor Street. This is an exceptionally wide and long lot like no other.",
+  "features": [
+   "Heating: Natural Gas, Forced Air, Zoned",
+   "Cooling: Central Air, Zoned",
+   "2 Open Parking spaces",
+   "Top school rating 7/10 nearby"
+  ],
+  "daysOnMarket": 124,
+  "taxRateOverride": 0.0199,
+  "insuranceAnnualOverride": 75600,
+  "zillowUrl": "https://www.zillow.com/homedetails/1355-N-Astor-St-Chicago-IL-60610/2103549489_zpid/"
+ },
+ {
+  "id": "chicago-2142522474",
+  "city": "chicago",
+  "tier": "absurd",
+  "title": "915 N Dearborn St",
+  "neighborhood": "Gold Coast",
+  "price": 18500000,
+  "forSale": true,
+  "beds": 6,
+  "baths": 7,
+  "sqft": 13400,
+  "lotSqft": 5850,
+  "yearBuilt": 1888,
+  "hoaMonthly": 200,
+  "pool": false,
+  "parking": "3 Garage spaces",
+  "categories": [
+   "classic",
+   "mansions"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/ad8a94c190b69583eb45a9f1bfecc13a-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/dd134a502ce1d4bc964012837c76646a-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/e503f4e814d5b09f9e9236e615028b87-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/aeeb0003533fb1db5d75faa5e2cdd080-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/1ddd9740c957aeb29b1f1a17230d1c2a-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2018,
+    "price": 21900000
+   },
+   {
+    "year": 2019,
+    "price": 19500000
+   },
+   {
+    "year": 2025,
+    "price": 18500000
+   },
+   {
+    "year": 2026,
+    "price": 18500000
+   }
+  ],
+  "rentEstimate": 6431,
+  "description": "A rare piece of Chicago's history, the Thompson House at 915 N. Dearborn stands as one of the Gold Coast's original architectural treasures. Designed in 1888 by Cobb & Frost, the renowned architects behind the Newberry Library and University of Chicago, this grand residence was among the first to define the Gold Coast neighborhood after the Great Chicago Fire.",
+  "features": [
+   "Heating: Natural Gas, Forced Air, Radiant, Sep Heating Systems - 2+, Zoned, Radiant Floor",
+   "Cooling: Central Air, Zoned",
+   "3 Garage spaces",
+   "Garage",
+   "HOA $200 monthly"
+  ],
+  "daysOnMarket": 505,
+  "taxRateOverride": 0.0199,
+  "insuranceAnnualOverride": 66600,
+  "zillowUrl": "https://www.zillow.com/homedetails/915-N-Dearborn-St-Chicago-IL-60610/2142522474_zpid/"
+ },
+ {
+  "id": "chicago-3589582",
+  "city": "chicago",
+  "tier": "realistic",
+  "title": "4623 N Chester Ave Unit 103W",
+  "neighborhood": "Schorsch Forest View",
+  "price": 162900,
+  "forSale": false,
+  "beds": 1,
+  "baths": 1,
+  "sqft": 856,
+  "yearBuilt": 0,
+  "hoaMonthly": 321,
+  "pool": false,
+  "parking": "1 Attached Garage space",
+  "categories": [
+   "offmarket",
+   "city",
+   "value"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/017d49bea4a9900d65b0559a1b0aff81-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/2fd5284fd76237a5f53ee381d820e9a5-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/5c68b0c506b64659d1413e41249fc903-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/614121a85ced77f193817d55ced7e483-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/c77f01151760171692a6b308a2ddc169-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2017,
+    "price": 1060
+   },
+   {
+    "year": 2020,
+    "price": 104500
+   },
+   {
+    "year": 2022,
+    "price": 133000
+   },
+   {
+    "year": 2026,
+    "price": 162900
+   }
+  ],
+  "rentEstimate": 1543,
+  "description": "WELCOME HOME! Discover effortless living in this move-in ready 1-bedroom, 1-bath condo nestled in the highly sought-after O'Hare area. This unit combines modern updates with exceptional convenience. Beautifully renovated in 2018, this 1st floor unit is filled with natural light and features a large living room, separate dining room, large bedroom, updated kitchen, updated bathroom and plenty of\u2026",
+  "features": [
+   "Heating: Steam, Baseboard",
+   "Cooling: Wall Unit(s)",
+   "1 Attached Garage space",
+   "Garage",
+   "Top school rating 7/10 nearby",
+   "HOA $321 monthly"
+  ],
+  "taxRateOverride": 0.0199,
+  "zillowUrl": "https://www.zillow.com/homedetails/4623-N-Chester-Ave-UNIT-103W-Chicago-IL-60656/3589582_zpid/"
+ },
+ {
+  "id": "chicago-3622910",
+  "city": "chicago",
+  "tier": "dream",
+  "title": "5940 N Knox Ave",
+  "neighborhood": "Sauganash",
+  "price": 867700,
+  "forSale": false,
+  "beds": 4,
+  "baths": 3,
+  "sqft": 2248,
+  "lotSqft": 4826.448,
+  "yearBuilt": 1928,
+  "hoaMonthly": 0,
+  "pool": false,
+  "parking": "3 Attached Garage spaces",
+  "categories": [
+   "offmarket",
+   "classic"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/14e28ea01dc535a04e32b0eb39674087-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/c55b9bc4b3659b52021e9fa18f376777-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/86cef296295f7a91ea609aa67dee70c4-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/55c08b29c0e2f758bd361def650f5a3e-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/26a2f41484976d6cf216fb169abf783c-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2013,
+    "price": 575000
+   },
+   {
+    "year": 2018,
+    "price": 725000
+   },
+   {
+    "year": 2020,
+    "price": 625000
+   },
+   {
+    "year": 2026,
+    "price": 867700
+   }
+  ],
+  "rentEstimate": 5319,
+  "description": "Sauganash! Step into a piece of architectural history with this strikingly beautiful 3 + bedroom French Normandy Tudor nestled on a lovely tree lined block! So visually stunning it was featured in *Chicago Home and Garden* Magazine and was also included in the Sauganash Community Association's design guide.",
+  "features": [
+   "Heating: Natural Gas, Forced Air",
+   "Cooling: Central Air",
+   "3 Attached Garage spaces",
+   "Garage",
+   "Top school rating 8/10 nearby"
+  ],
+  "taxRateOverride": 0.0199,
+  "zillowUrl": "https://www.zillow.com/homedetails/5940-N-Knox-Ave-Chicago-IL-60646/3622910_zpid/"
+ },
+ {
+  "id": "chicago-3624529",
+  "city": "chicago",
+  "tier": "realistic",
+  "title": "6048 N Landers Ave",
+  "neighborhood": "Edgebrook",
+  "price": 566500,
+  "forSale": false,
+  "beds": 4,
+  "baths": 3,
+  "sqft": 2247,
+  "lotSqft": 5080,
+  "yearBuilt": 1951,
+  "hoaMonthly": 0,
+  "pool": false,
+  "parking": "1 Attached Garage space",
+  "categories": [
+   "offmarket"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/5420ec1861d25070645472376e512d86-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/58379a5dcaba562ccea2bd7558587bed-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/0726f19123b91cf3c84573273ae37144-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/1f40517a6c48ddef803d07808746a729-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/83b5e6c015c5d7bf4dcd416b3c3ad71e-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 2001,
+    "price": 290000
+   },
+   {
+    "year": 2020,
+    "price": 452000
+   },
+   {
+    "year": 2021,
+    "price": 470000
+   },
+   {
+    "year": 2026,
+    "price": 566500
+   }
+  ],
+  "rentEstimate": 4467,
+  "description": "Don't let the charming curb appeal fool you, this unexpectedly spacious 3+1 bedroom, 3-bath Edgebrook home lives far larger than expected, thanks to a sprawling family room and primary suite addition. Inside, the sophisticated living room is anchored by a wood-burning fireplace, with hardwood floors grounding the entire main level.",
+  "features": [
+   "Heating: Natural Gas, Forced Air",
+   "Cooling: Central Air",
+   "1 Attached Garage space",
+   "Garage",
+   "Top school rating 8/10 nearby"
+  ],
+  "taxRateOverride": 0.0199,
+  "zillowUrl": "https://www.zillow.com/homedetails/6048-N-Landers-Ave-Chicago-IL-60646/3624529_zpid/"
+ },
+ {
+  "id": "chicago-3654697",
+  "city": "chicago",
+  "tier": "realistic",
+  "title": "6602 W Montrose Ave",
+  "neighborhood": "Harwood Heights",
+  "price": 375600,
+  "forSale": false,
+  "beds": 3,
+  "baths": 2,
+  "sqft": 1343,
+  "lotSqft": 3125,
+  "yearBuilt": 0,
+  "hoaMonthly": 0,
+  "pool": false,
+  "parking": "2 Garage spaces",
+  "categories": [
+   "offmarket"
+  ],
+  "photos": [
+   "https://photos.zillowstatic.com/fp/b905d322262466ababf0d8a59b080caf-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/dcc32ccf08e996c672d6c0aef131917a-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/f9b6c06e20a3ccf42d6ff6ab68de08d5-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/bbfdd137f7e8195b0f22fa508b399a04-cc_ft_768.jpg",
+   "https://photos.zillowstatic.com/fp/9bee9ba5759814e3f7ef145cb80ab9cd-cc_ft_768.jpg"
+  ],
+  "priceHistory": [
+   {
+    "year": 1997,
+    "price": 110000
+   },
+   {
+    "year": 2026,
+    "price": 375600
+   }
+  ],
+  "rentEstimate": 3202,
+  "description": "MULTIPLE OFFERS RECEIVED. Desirable close-to-everything location in wonderful Harwood Heights! Charming and beautifully updated Cape Cod-style home with Tudor-inspired architectural details and outstanding curb appeal.",
+  "features": [
+   "Heating: Natural Gas",
+   "Cooling: Central Air",
+   "2 Garage spaces",
+   "Garage",
+   "Top school rating 8/10 nearby"
+  ],
+  "daysOnMarket": 1,
+  "taxRateOverride": 0.0199,
+  "zillowUrl": "https://www.zillow.com/homedetails/6602-W-Montrose-Ave-Harwood-Heights-IL-60706/3654697_zpid/"
+ }
+]

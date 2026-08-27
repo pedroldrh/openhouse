@@ -87,9 +87,9 @@ export default function ComparePage() {
                 <Row label="Insurance / yr" values={houses.map((h) => fmtCompact(insuranceAnnual(h)))} />
                 <Row label="HOA / mo" values={houses.map((h) => (h.hoaMonthly ? fmtMoney(h.hoaMonthly) : "—"))} />
                 <Row label="Would rent for" values={houses.map((h) => `${fmtMoney(h.rentEstimate)}/mo · ${rentalYield(h).toFixed(1)}%`)} />
-                <Row label="Walk Score" values={houses.map((h) => String(h.walkScore))} />
+                <Row label="Walk Score" values={houses.map((h) => (h.walkScore != null ? String(h.walkScore) : "—"))} />
                 <Row label="Pool" values={houses.map((h) => (h.pool ? "Yes" : "No"))} />
-                <Row label="Risk" values={houses.map((h) => h.risk)} />
+                <Row label="Risk" values={houses.map((h) => h.risk ?? "—")} />
                 <Row label="Status" values={houses.map((h) => (h.forSale ? "For sale" : "Off-market"))} />
               </tbody>
             </table>

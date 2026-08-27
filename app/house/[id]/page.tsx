@@ -37,6 +37,19 @@ export default async function HousePage({ params }: { params: Promise<{ id: stri
               {house.forSale && house.daysOnMarket != null && (
                 <span> · {house.daysOnMarket} days on market</span>
               )}
+              {house.zillowUrl && (
+                <>
+                  {" · "}
+                  <a
+                    href={house.zillowUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="underline"
+                  >
+                    View on Zillow
+                  </a>
+                </>
+              )}
             </p>
           </div>
           <DetailActions houseId={house.id} title={house.title} />
@@ -45,7 +58,11 @@ export default async function HousePage({ params }: { params: Promise<{ id: stri
         {/* photo mosaic */}
         <div className="mt-5 grid h-[26rem] grid-cols-4 grid-rows-2 gap-2 overflow-hidden rounded-xl">
           {/* eslint-disable @next/next/no-img-element */}
-          <img src={house.photos[0]} alt={house.title} className="col-span-2 row-span-2 h-full w-full object-cover" />
+          <img
+            src={house.photos[0].replace("cc_ft_768", "cc_ft_1152")}
+            alt={house.title}
+            className="col-span-2 row-span-2 h-full w-full object-cover"
+          />
           <img src={house.photos[1]} alt="" className="col-span-2 h-full w-full object-cover" />
           <img src={house.photos[2]} alt="" className="h-full w-full object-cover" />
           <img src={house.photos[3]} alt="" className="h-full w-full object-cover" />
@@ -59,7 +76,8 @@ export default async function HousePage({ params }: { params: Promise<{ id: stri
               {house.lotSqft ? ` · ${house.lotSqft.toLocaleString()} sqft lot` : ""}
             </p>
             <p className="mt-1 text-[15px] text-muted">
-              Built {house.yearBuilt} · {house.parking}
+              {house.yearBuilt ? `Built ${house.yearBuilt} · ` : ""}
+              {house.parking}
               {house.pool ? " · Pool" : ""} · ${Math.round(house.price / house.sqft)}/sqft
               <span className="text-ink"> (city median ${city.pricePerSqft})</span>
             </p>
@@ -82,10 +100,16 @@ export default async function HousePage({ params }: { params: Promise<{ id: stri
             <div className="mt-6 border-t border-line pt-6">
               <h2 className="text-lg font-semibold">The numbers</h2>
               <div className="mt-4 grid grid-cols-2 gap-4 sm:grid-cols-4">
-                <Stat label="Property tax" value={`${fmtCompact(taxAnnual(house))}/yr`} />
-                <Stat label="Insurance est." value={`${fmtCompact(insuranceAnnual(house))}/yr`} />
-                <Stat label="Walk Score" value={String(house.walkScore)} />
-                <Stat label="Risk" value={house.risk} />
+                <Stat
+                  label={house.taxRateOverride ? "Property tax (actual rate)" : "Property tax"}
+                  value={`${fmtCompact(taxAnnual(house))}/yr`}
+                />
+                <Stat
+                  label={house.insuranceAnnualOverride ? "Insurance (quoted)" : "Insurance est."}
+                  value={`${fmtCompact(insuranceAnnual(house))}/yr`}
+                />
+                {house.walkScore != null && <Stat label="Walk Score" value={String(house.walkScore)} />}
+                {house.risk && <Stat label="Risk" value={house.risk} />}
               </div>
               {house.priceHistory.length > 1 && (
                 <div className="mt-5 rounded-xl border border-line p-5">
