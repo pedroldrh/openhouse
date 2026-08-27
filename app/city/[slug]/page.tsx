@@ -32,18 +32,13 @@ export default async function CityPage({ params }: { params: Promise<{ slug: str
         </div>
 
         <section className="mt-10 rounded-2xl border border-line p-6">
-          <h2 className="text-lg font-semibold">The {city.name} market — and your call on it</h2>
+          <h2 className="text-lg font-semibold">The {city.name} market over time</h2>
           <p className="mt-1 text-sm text-muted">
-            26 years of the median home&apos;s value (approximate, for exploration). The dashed
-            lines are the next 12 months: the model&apos;s call, and yours.
+            26 years of the median home&apos;s value (approximate, for exploration), with a simple
+            12-month estimate.
           </p>
           <div className="mt-5">
-            <MarketChart
-              cityId={city.id}
-              cityName={city.name}
-              series={marketSeries(city.id)}
-              modelPct={modelForecastPct(city.id)}
-            />
+            <MarketChart series={marketSeries(city.id)} modelPct={modelForecastPct(city.id)} />
           </div>
         </section>
 
