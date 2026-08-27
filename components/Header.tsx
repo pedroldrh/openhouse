@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { CITIES } from "@/lib/data";
+import { CITIES, cityHero } from "@/lib/data";
 import { fmtCompact } from "@/lib/finance";
 import { usePins } from "@/lib/pins";
 import { GlobeIcon, LogoIcon, MenuIcon, SearchIcon, UserIcon } from "./icons";
@@ -130,7 +130,7 @@ export function CityDropdown({ onPick }: { onPick: () => void }) {
           className="flex w-full items-center gap-4 rounded-2xl px-2 py-2.5 text-left hover:bg-fog"
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={c.hero} alt={c.name} className="h-12 w-12 rounded-lg object-cover" />
+          <img src={cityHero(c)} alt={c.name} className="h-12 w-12 rounded-lg object-cover" />
           <span>
             <span className="block text-sm font-medium">
               {c.name}, {c.state}

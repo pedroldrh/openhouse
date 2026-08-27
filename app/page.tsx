@@ -3,7 +3,7 @@ import BigSearch from "@/components/BigSearch";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HouseCard from "@/components/HouseCard";
-import { CITIES, housesIn } from "@/lib/data";
+import { CITIES, cityHero, housesIn } from "@/lib/data";
 import { fmtCompact } from "@/lib/finance";
 import { ChevronRight } from "@/components/icons";
 
@@ -36,7 +36,7 @@ export default function Home() {
                 <div className="aspect-square overflow-hidden rounded-xl">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src={c.hero}
+                    src={cityHero(c)}
                     alt={c.name}
                     className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                   />

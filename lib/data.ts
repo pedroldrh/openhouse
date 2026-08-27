@@ -2,7 +2,15 @@
 // Zillow pipeline (scripts/fetch-live-data.mjs → data/live-houses.json).
 import liveHouses from "@/data/live-houses.json";
 
-export type CityId = "nyc" | "miami" | "san-diego" | "austin" | "chicago";
+export type CityId =
+  | "nyc"
+  | "miami"
+  | "san-diego"
+  | "austin"
+  | "chicago"
+  | "charlotte"
+  | "boston"
+  | "charleston";
 export type Tier = "realistic" | "dream" | "absurd";
 
 export interface City {
@@ -124,7 +132,51 @@ export const CITIES: City[] = [
     note: "The big-city bargain: half the price per sqft of the coasts. The catch is ~2.1% property taxes — you rent your house back from Cook County.",
     hero: img("1477959858617-67f85cf4f1df"),
   },
+  {
+    id: "charlotte",
+    name: "Charlotte",
+    state: "NC",
+    medianPrice: 420000,
+    pricePerSqft: 230,
+    taxRate: 0.008,
+    insuranceBase: 2200,
+    appreciation10y: 85,
+    note: "The banking boomtown: coastal-refugee demand, ~0.8% property taxes, and new construction everywhere. Your money goes roughly twice as far as Boston.",
+    hero: "",
+  },
+  {
+    id: "boston",
+    name: "Boston",
+    state: "MA",
+    medianPrice: 750000,
+    pricePerSqft: 680,
+    taxRate: 0.0105,
+    insuranceBase: 2600,
+    appreciation10y: 55,
+    note: "Old housing stock, triple-deckers, and a residential exemption that knocks thousands off owner-occupied tax bills — but you're still paying NYC-adjacent prices for 1890s bones.",
+    hero: img("1501979376754-2ff867a4f659"),
+  },
+  {
+    id: "charleston",
+    name: "Charleston",
+    state: "SC",
+    medianPrice: 550000,
+    pricePerSqft: 310,
+    taxRate: 0.0055,
+    insuranceBase: 4500,
+    appreciation10y: 95,
+    note: "SC taxes primary homes at a 4% ratio — among the lowest effective rates in the country — then hurricane and flood insurance takes the savings right back.",
+    hero: "",
+  },
 ];
+
+/** City hero image, falling back to the best scraped house photo. */
+export function cityHero(city: City): string {
+  if (city.hero) return city.hero;
+  const homes = HOUSES.filter((h) => h.city === city.id);
+  const pick = homes.find((h) => h.tier === "dream") ?? homes[0];
+  return pick?.photos[0] ?? "";
+}
 
 export const CATEGORIES = [
   { id: "all", label: "All homes", icon: "home" },

@@ -30,13 +30,19 @@ const CITIES = [
   { id: "san-diego", median: 1005000, ppsf: 715, bounds: { west: -117.28, east: -116.95, south: 32.63, north: 33.03 } },
   { id: "austin", median: 545000, ppsf: 305, bounds: { west: -97.9, east: -97.6, south: 30.15, north: 30.45 } },
   { id: "chicago", median: 362000, ppsf: 240, bounds: { west: -87.85, east: -87.55, south: 41.75, north: 42.05 } },
+  { id: "charlotte", median: 420000, ppsf: 230, bounds: { west: -80.95, east: -80.7, south: 35.1, north: 35.35 } },
+  { id: "boston", median: 750000, ppsf: 680, bounds: { west: -71.19, east: -70.99, south: 42.27, north: 42.4 } },
+  { id: "charleston", median: 550000, ppsf: 310, bounds: { west: -80.1, east: -79.75, south: 32.68, north: 32.95 } },
 ];
 
-// How many homes we keep per city
-const KEEP = { realistic: 4, dream: 3, absurd: 2, sold: 4 };
+// How many homes we keep per city. PER_TIER=20 needs ~$2.50 of Apify credit
+// for a full 8-city refresh; scale down to fit the free plan's remaining budget.
+const PER_TIER = Number(process.env.PER_TIER ?? 20);
+const KEEP = { realistic: PER_TIER, dream: PER_TIER, absurd: PER_TIER, sold: Number(process.env.SOLD ?? 8) };
+const RESULTS_LIMIT = Number(process.env.RESULTS ?? Math.round(PER_TIER * 1.5));
 
-const searchUrl = (bounds, filterState) =>
-  "https://www.zillow.com/homes/for_sale/?searchQueryState=" +
+const searchUrl = (bounds, filterState, path = "for_sale") =>
+  `https://www.zillow.com/homes/${path}/?searchQueryState=` +
   encodeURIComponent(
     JSON.stringify({
       pagination: {},
@@ -52,17 +58,23 @@ const cityUrls = (c) => [
   { tier: "dream", url: searchUrl(c.bounds, { price: { min: Math.round(c.median * 2.2), max: Math.round(c.median * 6) } }) },
   { tier: "absurd", url: searchUrl(c.bounds, { price: { min: Math.round(c.median * 7) } }) },
   {
+    // Recently-sold = our off-market inventory. Needs BOTH the
+    // /recently_sold/ path AND the full flag set; either alone returns 0.
     tier: "sold",
-    url: searchUrl(c.bounds, {
-      price: { min: Math.round(c.median * 0.45) },
-      isRecentlySold: { value: true },
-      isForSaleByAgent: { value: false },
-      isForSaleByOwner: { value: false },
-      isNewConstruction: { value: false },
-      isComingSoon: { value: false },
-      isAuction: { value: false },
-      isForSaleForeclosure: { value: false },
-    }),
+    url: searchUrl(
+      c.bounds,
+      {
+        price: { min: Math.round(c.median * 0.45) },
+        isRecentlySold: { value: true },
+        isForSaleByAgent: { value: false },
+        isForSaleByOwner: { value: false },
+        isNewConstruction: { value: false },
+        isComingSoon: { value: false },
+        isAuction: { value: false },
+        isForSaleForeclosure: { value: false },
+      },
+      "recently_sold"
+    ),
   },
 ];
 
@@ -82,8 +94,8 @@ async function startRun(actor, input) {
       const { data } = await api(`/acts/${actor}/runs`, { method: "POST", body: JSON.stringify(input) });
       return data;
     } catch (err) {
-      if (!String(err).includes("actor-memory-limit-exceeded") || attempt >= 20) throw err;
-      console.log("  memory limit hit, waiting 30s for running actors to finish…");
+      if (!/memory-limit|concurrent|too-many/i.test(String(err)) || attempt >= 20) throw err;
+      console.log("  platform limit hit, waiting 30s for running actors to finish…");
       await new Promise((r) => setTimeout(r, 30000));
     }
   }
@@ -231,13 +243,18 @@ function normalize(cityInfo, card, detail) {
 
 const only = process.argv.slice(2);
 const cities = only.length ? CITIES.filter((c) => only.includes(c.id)) : CITIES;
+// SOLD_ONLY=1 → fetch just the recently-sold sweep; MERGE=1 → merge into the
+// existing JSON (replacing same-id homes) instead of overwriting it.
+const SOLD_ONLY = process.env.SOLD_ONLY === "1";
+const MERGE = process.env.MERGE === "1";
 
 console.log("Phase 1: search runs for", cities.map((c) => c.id).join(", "));
 const searchRuns = [];
 for (const c of cities) {
+  const urls = cityUrls(c).filter((u) => !SOLD_ONLY || u.tier === "sold");
   const run = await startRun(SEARCH_ACTOR, {
-    searchUrls: cityUrls(c).map((u) => ({ url: u.url })),
-    resultsLimit: 25,
+    searchUrls: urls.map((u) => ({ url: u.url })),
+    resultsLimit: RESULTS_LIMIT,
     extractionMethod: "PAGINATION",
   });
   searchRuns.push({ ...run, cityId: c.id });
@@ -259,10 +276,12 @@ for (let i = 0; i < cities.length; i++) {
   const clean = items.filter((it) => {
     if (!it.zpid || seen.has(it.zpid)) return false;
     seen.add(it.zpid);
-    return it.unformattedPrice > 10000 && it.beds && it.area && (it.photoCount ?? 0) >= 5 && !it.isUndisclosedAddress;
+    // Sold items often lack a search-result price — the detail Zestimate fills it in.
+    const priced = it.unformattedPrice > 10000 || it.statusType !== "FOR_SALE";
+    return priced && it.beds && it.area && (it.photoCount ?? 0) >= 5 && !it.isUndisclosedAddress;
   });
   const forSale = clean.filter((it) => it.statusType === "FOR_SALE");
-  const sold = clean.filter((it) => it.statusType !== "FOR_SALE" && (it.zestimate || it.unformattedPrice));
+  const sold = clean.filter((it) => it.statusType !== "FOR_SALE");
   const byTier = (t) => forSale.filter((it) => tierFor(it.unformattedPrice, c.median) === t);
   const picks = [
     ...byTier("realistic").slice(0, KEEP.realistic),
@@ -275,14 +294,19 @@ for (let i = 0; i < cities.length; i++) {
 }
 if (!selections.length) throw new Error("No candidates selected — aborting before detail phase.");
 
-console.log(`Phase 3: detail runs for ${selections.length} homes (sequential — free-plan memory cap)`);
+console.log(`Phase 3: detail runs for ${selections.length} homes (3 cities at a time — free-plan memory cap)`);
 const detailDone = [];
-for (const c of cities) {
-  const urls = selections.filter((s) => s.city.id === c.id).map((s) => ({ url: s.card.detailUrl }));
-  if (!urls.length) continue;
-  const run = await startRun(DETAIL_ACTOR, { startUrls: urls });
-  console.log(`  started detail run ${run.id} for ${c.id} (${urls.length} homes)`);
-  detailDone.push(...(await waitForRuns([run], "detail")));
+for (let i = 0; i < cities.length; i += 3) {
+  const chunk = cities.slice(i, i + 3);
+  const runs = [];
+  for (const c of chunk) {
+    const urls = selections.filter((s) => s.city.id === c.id).map((s) => ({ url: s.card.detailUrl }));
+    if (!urls.length) continue;
+    const run = await startRun(DETAIL_ACTOR, { startUrls: urls });
+    console.log(`  started detail run ${run.id} for ${c.id} (${urls.length} homes)`);
+    runs.push(run);
+  }
+  detailDone.push(...(await waitForRuns(runs, "detail")));
 }
 
 console.log("Phase 4: normalize");
@@ -305,9 +329,15 @@ for (const { city, card } of selections) {
   else console.warn(`  normalize rejected ${card.address}`);
 }
 
-writeFileSync(join(ROOT, "data", "live-houses.json"), JSON.stringify(houses, null, 1));
-console.log(`\nWrote ${houses.length} homes to data/live-houses.json`);
+let output = houses;
+if (MERGE) {
+  const existing = JSON.parse(readFileSync(join(ROOT, "data", "live-houses.json"), "utf8"));
+  const fresh = new Set(houses.map((h) => h.id));
+  output = [...existing.filter((h) => !fresh.has(h.id)), ...houses];
+}
+writeFileSync(join(ROOT, "data", "live-houses.json"), JSON.stringify(output, null, 1));
+console.log(`\nWrote ${output.length} homes to data/live-houses.json (${houses.length} from this run)`);
 for (const c of cities) {
-  const n = houses.filter((h) => h.city === c.id);
+  const n = output.filter((h) => h.city === c.id);
   console.log(`  ${c.id}: ${n.length} (${n.filter((h) => !h.forSale).length} off-market, tiers: ${["realistic", "dream", "absurd"].map((t) => n.filter((h) => h.tier === t).length).join("/")})`);
 }

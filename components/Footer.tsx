@@ -1,3 +1,6 @@
+import Link from "next/link";
+import { CITIES } from "@/lib/data";
+
 export default function Footer() {
   return (
     <footer className="mt-16 border-t border-line bg-fog">
@@ -5,11 +8,13 @@ export default function Footer() {
         <div>
           <p className="text-sm font-semibold">Explore</p>
           <ul className="mt-3 space-y-2.5 text-sm text-ink/80">
-            <li>New York City</li>
-            <li>Miami</li>
-            <li>San Diego</li>
-            <li>Austin</li>
-            <li>Chicago</li>
+            {CITIES.map((c) => (
+              <li key={c.id}>
+                <Link href={`/city/${c.id}`} className="hover:underline">
+                  {c.name}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
         <div>
